@@ -134,6 +134,190 @@ table {
   box-sizing: border-box;
 }
 
+body {
+  max-width: 1920px;
+  background-color: #f9f9f9;
+}
 
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+}
 
+.nav {
+  background-color: #0065b4;
+  max-width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 50px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  width: 60%;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.loginbar {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+/*主視覺畫面*/
+
+.herro-section {
+  max-width: 100%;
+  height: 100%;
+  margin-left: auto;
+  position: relative;
+}
+
+.onepage {
+  max-width: 100%;
+}
+
+.onepage img {
+  width: 100%;
+}
+
+.onepage-rectangle {
+  width: 40%;
+  height: 10%;
+  background-color: #659de1;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+/*第二頁*/
+
+.twosection {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 192px;
+  position: relative;
+}
+
+.colorship img {
+  width: 80%;
+}
+
+.twopage {
+  max-width: 80%;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 170px;
+}
+
+.twopage img {
+  width: 100%;
+}
+
+.cardtwo {
+  width: 40%;
+  height: 55%;
+  background-color: #f9f9f9;
+  position: absolute;
+  box-shadow: 3px 5px 8px #0029758e;
+  left: 5%;
+  bottom: 7%;
+  z-index: 3;
+}
+
+.fontsize34 {
+  font-size: 34px;
+  text-align: center;
+
+  padding-top: 70px;
+}
+.fontsize34-group {
+  padding-top: 30px;
+}
+.fontsize34-group > .fontsize34 {
+  font-size: 34px;
+  padding-top: 15px;
+}
+
+.button1 {
+  width: 20%;
+  height: 10%;
+  background-color: #e165d0;
+
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  z-index: 2;
+}
+
+.button2 {
+  width: 20%;
+  height: 10%;
+  background-color: #7165e1;
+  position: absolute;
+  bottom: 10%;
+  right: 25%;
+  z-index: 2;
+}
+
+.twopage-rectangle {
+  width: 40%;
+  height: 30%;
+  background-color: #659de1;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+/*第三頁*/
+.threepage-pic {
+  width: 100%;
+}
+
+.box {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.box1 {
+  width: 250px;
+  height: 400px;
+  background: red;
+}
+
+.box2 {
+  width: 250px;
+  height: 400px;
+  background: green;
+  margin-top: 100px;
+}
+
+.box3 {
+  width: 250px;
+  height: 400px;
+  background: blue;
+}
+
+.box4 {
+  width: 250px;
+  height: 400px;
+  background: black;
+  margin-top: 100px;
+}
