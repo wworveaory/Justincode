@@ -141,7 +141,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 100%;
+  width: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -437,7 +437,7 @@ body {
 
 .container-1 {
   margin: 0 auto;
-  max-width: 1200px;
+  width: 1200px;
 }
 .hot-sale-item {
   display: flex;
@@ -445,7 +445,7 @@ body {
   width: 100%;
   height: 600px;
   margin-top: 60px;
-  margin-bottom: 660px;
+  margin-bottom: 238px;
 }
 .box2 {
   width: 25%;
@@ -487,3 +487,10 @@ body {
   bottom: 10%;
   z-index: -1;
 }
+
+.dd {
+  width: 100%;
+  height: 300px;
+  background-color: blueviolet;
+}
+
