@@ -133,6 +133,9 @@ table {
 *::after {
   box-sizing: border-box;
 }
+li {
+  list-style-type: none;
+}
 
 body {
   max-width: 1920px;
@@ -153,6 +156,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 0 8%;
 }
 
 .logo {
@@ -174,11 +178,23 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
 }
+.mx-60 {
+  margin: 0 60px;
+}
 
 .loginbar {
   width: 20%;
   display: flex;
   justify-content: center;
+}
+.nav-three-gp {
+  display: flex;
+  align-items: center;
+}
+.nav-icon {
+  width: 35px;
+  height: 40px;
+  fill: #f9f9f9;
 }
 
 /*主視覺畫面*/
