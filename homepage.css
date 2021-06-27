@@ -445,7 +445,7 @@ body {
   width: 100%;
   height: 600px;
   margin-top: 60px;
-  margin-bottom: 238px;
+  margin-bottom: 260px;
 }
 .box2 {
   width: 25%;
@@ -480,17 +480,17 @@ body {
 }
 
 .four-rectangle {
-  width: 1920px;
+  width: 100%;
   height: 552px;
   background-color: #fcf5e9;
   position: absolute;
-  bottom: 10%;
+  bottom: 2.5%;
   z-index: -1;
 }
 /*footer的背景*/
 .footer-bg {
   width: 100%;
-  height: 300px;
+  height: 460px;
   background-color: #0065b4;
   color: #f9f9f9;
   text-decoration: none;
@@ -499,6 +499,9 @@ body {
 .footer-group {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+
+  padding-top: 70px;
 }
 .four-information {
   display: flex;
@@ -506,4 +509,24 @@ body {
 .four-information a {
   color: #f9f9f9;
   text-decoration: none;
+}
+.footer-left {
+  width: 25%;
+}
+.footer-center {
+  width: 60%;
+}
+.footer-right {
+  width: 15%;
+}
+
+.map,
+.coffee,
+.product,
+.partner {
+  width: 25%;
+}
+
+.copyright {
+  text-align: center;
 }
