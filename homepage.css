@@ -158,7 +158,7 @@ body {
 .logo {
   width: 20%;
   display: flex;
-  justify-content: center;
+
   width: 170px;
   height: 50px;
 }
@@ -260,25 +260,36 @@ body {
   padding-top: 15px;
 }
 
-.button1 {
-  width: 20%;
-  height: 10%;
-  background-color: #e165d0;
-
+.button-blue-left {
+  width: 110px;
+  height: 40px;
+  border-radius: 40px;
+  justify-content: center;
+  padding: 10px 0;
+  border: 2px solid #002875;
   position: absolute;
   bottom: 10%;
   left: 25%;
   z-index: 2;
 }
 
-.button2 {
-  width: 20%;
-  height: 10%;
-  background-color: #7165e1;
+.button-blue-right {
+  width: 110px;
+  height: 40px;
+  border-radius: 40px;
+  justify-content: center;
+  padding: 10px 0;
+  border: 2px solid #002875;
   position: absolute;
   bottom: 10%;
-  right: 25%;
   z-index: 2;
+  right: 25%;
+}
+
+.button-blue-right a,
+.button-blue-left a {
+  color: #002875;
+  text-decoration: none;
 }
 
 .twopage-rectangle {
@@ -344,9 +355,9 @@ body {
   border: #f9f9f9;
 }
 
-.all-button {
+.button-black {
   position: absolute;
-  border-radius: 3px;
+  border-radius: 40px;
 
   bottom: 40%;
   right: 25%;
@@ -355,18 +366,27 @@ body {
   justify-content: center;
   height: 55px;
   width: 234px;
-  background-color: rgba(183, 185, 183, 0.383);
+  background-color: #9494943f;
+}
+.button-black > a {
+  color: #f9f9f9;
+  text-decoration: none;
 }
 
-.all-button1 {
-  border-radius: 3px;
+.button-blue-bg {
+  border-radius: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 55px;
-  width: 234px;
-  background-color: rgba(183, 185, 183, 0.383);
+  height: 50px;
+  width: 300px;
+  border: 2px solid #659de1;
 }
+.button-blue-bg a {
+  color: #659de1;
+  text-decoration: none;
+}
+
 .Best-selling-group {
   display: flex;
   justify-content: space-between;
@@ -529,4 +549,59 @@ body {
 
 .copyright {
   text-align: center;
+  margin-top: 10%;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+/* .mb-30 = 用在footer的按鈕間距*/
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.logo2 {
+  width: 20%;
+
+  width: 170px;
+  height: 50px;
+}
+
+.footer-left > ul > li {
+  padding-bottom: 15px;
+}
+.map > ul > li {
+  padding-bottom: 15px;
+}
+
+.coffee > ul > li {
+  padding-bottom: 15px;
+}
+.product > ul > li {
+  padding-bottom: 15px;
+}
+.partner > ul > li {
+  padding-bottom: 15px;
+}
+
+.footer-right > a {
+  padding-bottom: 15px;
+}
+/*.button-w =白色方形按鈕*/
+.button-w {
+  text-align: center;
+  padding: 10px 0;
+
+  width: 210px;
+  height: 40px;
+
+  color: #f9f9f9;
+  border: 2px solid #f9f9f9;
+}
+.button-w > a {
+  text-decoration: none;
+  color: #f9f9f9;
 }
