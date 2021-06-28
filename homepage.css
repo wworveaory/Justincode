@@ -174,8 +174,9 @@ li {
 .fontsize16 {
   font-size: 16px;
 }
+
 /*container    rwd*/
-@media (max-width: 1920px) {
+@media screen and (max-width: 1920px) {
   .container {
     margin: 0 auto;
     width: 100%;
@@ -184,15 +185,18 @@ li {
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .container {
     max-width: 576px;
   }
+  .nav > .three-gp-flex {
+    display: none;
+  }
 }
 
-/*container    nav*/
+/*container    nav */
 
-@media (max-width: 1920px) {
+@media screen and (max-width: 1920px) {
   .nav {
     background-color: #0065b4;
     max-width: 100%;
@@ -202,69 +206,91 @@ li {
     justify-content: space-around;
     padding: 0 8%;
   }
-}
 
-@media (max-width: 576px) {
-  .nav {
+  .logo {
+    width: 20%;
+    display: flex;
+
+    width: 170px;
+    height: 50px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .navbar {
+    display: flex;
+    width: 60%;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .nav-three-gp {
+    display: flex;
+    align-items: center;
+    margin: 0 60px;
+  }
+  .three-gp-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-three-gp > a {
+    display: block;
+    color: #f9f9f9;
+    text-decoration: none;
+  }
+
+  .loginbar {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-icon {
+    width: 35px;
+    height: 40px;
+    fill: #f9f9f9;
+  }
+
+  .nav-icon-2 {
+    width: 25px;
+    height: 20px;
+    fill: #f9f9f9;
+  }
+  .icon-s-none {
     display: none;
   }
-  .nav-s{
-    
+}
+
+@media screen and (max-width: 576px) {
+  .navbar,
+  .loginbar {
+    display: none !important;
   }
-}
 
-.logo {
-  width: 20%;
-  display: flex;
+  .nav {
+    background-color: #298631;
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+  }
 
-  width: 170px;
-  height: 50px;
-}
+  .logo {
+    max-width: 30%;
+    display: flex;
 
-.logo img {
-  width: 100%;
-  height: 100%;
-}
+    /* width: 140px; */
+  }
 
-.navbar {
-  display: flex;
-  width: 60%;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
-
-.nav-three-gp {
-  display: flex;
-  align-items: center;
-  margin: 0 60px;
-}
-.three-gp-flex {
-  display: flex;
-  align-items: center;
-}
-
-.nav-three-gp > a {
-  display: block;
-  color: #f9f9f9;
-  text-decoration: none;
-}
-
-.loginbar {
-  width: 20%;
-  display: flex;
-  justify-content: center;
-}
-
-.nav-icon {
-  width: 35px;
-  height: 40px;
-  fill: #f9f9f9;
-}
-
-.nav-icon-2 {
-  width: 25px;
-  height: 20px;
-  fill: #f9f9f9;
+  .icon-s-none {
+    display: block;
+  }
 }
 
 /*主視覺畫面*/
