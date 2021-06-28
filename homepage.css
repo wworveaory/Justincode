@@ -133,13 +133,14 @@ table {
 *::after {
   box-sizing: border-box;
 }
-li {
-  list-style-type: none;
-}
 
 body {
   max-width: 1920px;
   background-color: #f9f9f9;
+}
+
+li {
+  list-style-type: none;
 }
 
 .container {
@@ -178,8 +179,15 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
 }
-.mx-60 {
+
+.nav-three-gp {
+  display: flex;
+  align-items: center;
   margin: 0 60px;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
 }
 
 .loginbar {
@@ -187,10 +195,12 @@ body {
   display: flex;
   justify-content: center;
 }
-.nav-three-gp {
-  display: flex;
-  align-items: center;
+.nav-three-gp > a {
+  display: block;
+  color: #f9f9f9;
+  text-decoration: none;
 }
+
 .nav-icon {
   width: 35px;
   height: 40px;
