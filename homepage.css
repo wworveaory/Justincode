@@ -162,6 +162,19 @@ li {
 .px-15 {
   padding: 15px 0;
 }
+.mb-20 {
+  margin-top: 20px;
+}
+.pb-32 {
+  padding-bottom: 32px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
 
 .fontsize60 {
   font-size: 60px;
@@ -487,6 +500,15 @@ li {
   border: 2px solid #659de1;
 }
 
+.container-1 {
+  margin: 0 auto;
+  width: 1200px;
+}
+.best-selling-group {
+  display: flex;
+  justify-content: space-between;
+}
+
 .button-blue-bg {
   border-radius: 40px;
   display: flex;
@@ -499,11 +521,6 @@ li {
 .button-blue-bg a {
   color: #659de1;
   text-decoration: none;
-}
-
-.Best-selling-group {
-  display: flex;
-  justify-content: space-between;
 }
 
 .button03 {
@@ -520,11 +537,7 @@ li {
   width: 100%;
 }
 
-.container-1 {
-  margin: 0 auto;
-  width: 1200px;
-}
-.hot-sale-item {
+.best-selling-item {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -545,9 +558,6 @@ li {
 }
 .box2-group {
   width: 100%;
-}
-.mb-20 {
-  margin-top: 20px;
 }
 
 .box3 {
@@ -588,13 +598,7 @@ li {
 
   padding-top: 70px;
 }
-.four-information {
-  display: flex;
-}
-.four-information a {
-  color: #f9f9f9;
-  text-decoration: none;
-}
+
 .footer-left {
   width: 25%;
 }
@@ -605,27 +609,19 @@ li {
   width: 15%;
 }
 
+.four-information {
+  display: flex;
+}
+.four-information a {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
 .map,
 .coffee,
 .product,
 .partner {
   width: 25%;
-}
-
-.copyright {
-  text-align: center;
-  margin-top: 10%;
-}
-
-.pb-32 {
-  padding-bottom: 32px;
-}
-.pb-20 {
-  padding-bottom: 20px;
-}
-/* .mb-30 = 用在footer的按鈕間距*/
-.mb-30 {
-  margin-bottom: 30px;
 }
 
 .logo2 {
@@ -669,4 +665,8 @@ li {
 .button-w > a {
   text-decoration: none;
   color: #f9f9f9;
+}
+.copyright {
+  text-align: center;
+  margin-top: 10%;
 }
