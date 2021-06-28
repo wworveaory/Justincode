@@ -149,7 +149,11 @@ li {
   overflow: hidden;
   position: relative;
 }
-
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
 
 .fontsize-20 {
   font-size: 20px;
