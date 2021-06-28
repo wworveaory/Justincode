@@ -135,24 +135,11 @@ table {
 }
 
 body {
-  max-width: 1920px;
   background-color: #f9f9f9;
 }
 
 li {
   list-style-type: none;
-}
-
-.container {
-  margin: 0 auto;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-@media (max-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
 }
 
 .fontsize-20 {
@@ -187,15 +174,43 @@ li {
 .fontsize16 {
   font-size: 16px;
 }
+/*container    rwd*/
+@media (max-width: 1920px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+}
 
-.nav {
-  background-color: #0065b4;
-  max-width: 100%;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0 8%;
+@media (max-width: 576px) {
+  .container {
+    max-width: 576px;
+  }
+}
+
+/*container    nav*/
+
+@media (max-width: 1920px) {
+  .nav {
+    background-color: #0065b4;
+    max-width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8%;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav {
+    display: none;
+  }
+  .nav-s{
+    
+  }
 }
 
 .logo {
