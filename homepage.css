@@ -293,43 +293,50 @@ li {
   }
 }
 
-/*主視覺畫面*/
+/*container  herosection */
 
-.herro-section {
-  max-width: 100%;
-  height: 100%;
-  margin-left: auto;
-  position: relative;
-}
-.herro-button-left {
-  width: 110px;
-  height: 40px;
-  border-radius: 40px;
-  text-align: center;
-  padding: 10px 0;
-  border: 2px solid #002875;
-  position: absolute;
-  bottom: 25%;
-  right: 35%;
-  z-index: 2;
+@media screen and (max-width: 1920px) {
+  /*主視覺畫面*/
+
+  .herro-section {
+    max-width: 100%;
+    height: 100%;
+    margin-left: auto;
+    position: relative;
+  }
+  .herro-button-left {
+    width: 110px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid #002875;
+    position: absolute;
+    bottom: 25%;
+    right: 35%;
+    z-index: 2;
+  }
+
+  .herro-button-right {
+    width: 110px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid #002875;
+    position: absolute;
+    bottom: 25%;
+    right: 25%;
+    z-index: 2;
+  }
+  .herro-button-left > a,
+  .herro-button-right > a {
+    color: #002875;
+    text-decoration: none;
+  }
 }
 
-.herro-button-right {
-  width: 110px;
-  height: 40px;
-  border-radius: 40px;
-  text-align: center;
-  padding: 10px 0;
-  border: 2px solid #002875;
-  position: absolute;
-  bottom: 25%;
-  right: 25%;
-  z-index: 2;
-}
-.herro-button-left > a,
-.herro-button-right > a {
-  color: #002875;
-  text-decoration: none;
+@media screen and (max-width: 576px) {
 }
 
 .onepage-pic {
