@@ -175,6 +175,11 @@ li {
   font-size: 16px;
 }
 
+.d-flex-columm {
+  display: flex;
+  flex-direction: column;
+}
+
 /*container    rwd*/
 @media screen and (max-width: 1920px) {
   .container {
@@ -225,12 +230,14 @@ li {
     width: 60%;
     flex-wrap: nowrap;
     justify-content: center;
+
+    align-items: center;
   }
 
   .nav-three-gp {
     display: flex;
     align-items: center;
-    margin: 0 60px;
+    margin: 0 50px;
   }
   .three-gp-flex {
     display: flex;
@@ -307,6 +314,15 @@ li {
   .img-s-none {
     display: none;
   }
+  .herro-text {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 8%;
+    left: 3%;
+    color: #f9f9f9;
+    z-index: 4;
+  }
 
   .herro-button-left {
     width: 110px;
@@ -363,6 +379,7 @@ li {
     height: 100%;
     margin-left: auto;
     position: relative;
+    margin-bottom: 60px;
   }
   .onepage-pic > img {
     display: none;
@@ -374,97 +391,236 @@ li {
   .img-s-none img {
     width: 100%;
   }
-  .onepage-rectangle {
-    width: 60%;
+
+  .herro-text {
+    display: flex;
+    align-items: center;
     position: absolute;
-    bottom: -10%;
+    bottom: 3%;
+    left: 3%;
+    color: #f9f9f9;
+    z-index: 4;
+  }
+
+  .herro-button-left {
+    width: 50%;
+    height: 8%;
+    border-radius: 40px;
+    text-align: center;
+    padding: 30px 0;
+    border: 2px solid #f9f9f9;
+    position: absolute;
+    bottom: 35%;
+    right: 22%;
+    z-index: 2;
+  }
+
+  .herro-button-right {
+    width: 50%;
+    height: 8%;
+    border-radius: 40px;
+    text-align: center;
+    padding: 30px 0;
+    border: 2px solid #f9f9f9;
+    position: absolute;
+    bottom: 25%;
+    right: 22%;
+    z-index: 2;
+  }
+  .herro-button-left > a,
+  .herro-button-right > a {
+    color: #f9f9f9;
+    text-decoration: none;
+  }
+
+  .onepage-rectangle {
+    width: 70%;
+    position: absolute;
+    bottom: -5%;
   }
 }
 
 /*第二頁*/
 
-.two-section {
-  width: 90%;
-  height: 100%;
-  display: flex;
-  margin-left: auto;
-  margin-bottom: 192px;
-  position: relative;
+@media screen and (max-width: 1920px) {
+  .two-section {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 192px;
+    position: relative;
+  }
+
+  .two-colorship img {
+    width: 80%;
+  }
+
+  .twopage-pic {
+    max-width: 80%;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-bottom: 170px;
+  }
+
+  .twopage-pic img {
+    width: 100%;
+  }
+
+  .cardtwo {
+    width: 40%;
+    height: 55%;
+    background-color: #f9f9f9;
+    position: absolute;
+    box-shadow: 3px 5px 8px #0029758e;
+    left: 5%;
+    bottom: 7%;
+    z-index: 3;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .fontsize34-group > .fontsize34 {
+    font-size: 34px;
+    padding-top: 15px;
+  }
+
+  .button-blue-left {
+    width: 110px;
+    height: 40px;
+    border-radius: 40px;
+    justify-content: center;
+    padding: 10px 0;
+    border: 2px solid #002875;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    z-index: 2;
+  }
+
+  .button-blue-right {
+    width: 110px;
+    height: 40px;
+    border-radius: 40px;
+    justify-content: center;
+    padding: 10px 0;
+    border: 2px solid #002875;
+    position: absolute;
+    bottom: 10%;
+    z-index: 2;
+    right: 25%;
+  }
+
+  .button-blue-right a,
+  .button-blue-left a {
+    color: #002875;
+    text-decoration: none;
+  }
+
+  .twopage-rectangle {
+    width: 40%;
+    height: 30%;
+    background-color: #659de1;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+  }
+  .phone-twopage-pic {
+    display: none;
+  }
 }
 
-.two-colorship img {
-  width: 80%;
+@media screen and (max-width: 576px) {
+  .two-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 192px;
+    position: relative;
+  }
+
+  .twopage-pic {
+    width: 100%;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-bottom: 170px;
+    height: 850px;
+  }
+
+  .twopage-pic img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .two-colorship {
+    display: none;
+  }
+
+  .cardtwo {
+    width: 90%;
+    height: 60%;
+    background-color: #f9f9f9;
+    position: absolute;
+    box-shadow: 3px 5px 8px #0029758e;
+    left: 5%;
+    bottom: -25%;
+    z-index: 3;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .fontsize34-group > .fontsize34 {
+    font-size: 34px;
+    padding-top: 15px;
+  }
+
+  .button-blue-left {
+    display: none;
+  }
+
+  .button-blue-right {
+    width: 110px;
+    height: 40px;
+    border-radius: 40px;
+    justify-content: center;
+    padding: 10px 0;
+    border: 2px solid #002875;
+    position: absolute;
+    bottom: 10%;
+    z-index: 2;
+    right: 25%;
+  }
+
+  .button-blue-right a,
+  .button-blue-left a {
+    color: #002875;
+    text-decoration: none;
+  }
+
+  .twopage-rectangle {
+    display: none;
+  }
+  /*隱藏電腦版二頁矩形
+    */
+  .twopage-rectangle {
+    display: none;
+  }
+
+  /*隱藏電腦版二頁頁圖片*/
+  .twopage-pic {
+    display: none;
+  }
+
+  /*手機顯示第二頁圖片*/
+  .phone-twopage-pic {
+    display: block;
+  }
+  .phone-twopage-pic img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.twopage-pic {
-  max-width: 80%;
-  margin-left: auto;
-  padding-top: 60px;
-  padding-bottom: 170px;
-}
-
-.twopage-pic img {
-  width: 100%;
-}
-
-.cardtwo {
-  width: 40%;
-  height: 55%;
-  background-color: #f9f9f9;
-  position: absolute;
-  box-shadow: 3px 5px 8px #0029758e;
-  left: 5%;
-  bottom: 7%;
-  z-index: 3;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.fontsize34-group > .fontsize34 {
-  font-size: 34px;
-  padding-top: 15px;
-}
-
-.button-blue-left {
-  width: 110px;
-  height: 40px;
-  border-radius: 40px;
-  justify-content: center;
-  padding: 10px 0;
-  border: 2px solid #002875;
-  position: absolute;
-  bottom: 10%;
-  left: 25%;
-  z-index: 2;
-}
-
-.button-blue-right {
-  width: 110px;
-  height: 40px;
-  border-radius: 40px;
-  justify-content: center;
-  padding: 10px 0;
-  border: 2px solid #002875;
-  position: absolute;
-  bottom: 10%;
-  z-index: 2;
-  right: 25%;
-}
-
-.button-blue-right a,
-.button-blue-left a {
-  color: #002875;
-  text-decoration: none;
-}
-
-.twopage-rectangle {
-  width: 40%;
-  height: 30%;
-  background-color: #659de1;
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-}
 /*第三頁*/
 .three-section {
   max-width: 100%;
