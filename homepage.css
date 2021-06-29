@@ -151,7 +151,7 @@ li {
 .mt-30 {
   margin-top: 30px;
 }
-.px-15 {
+.py-15 {
   padding: 15px 0;
 }
 .mb-20 {
@@ -635,128 +635,295 @@ li {
 }
 
 /*第三頁*/
-.three-section {
-  max-width: 100%;
-  height: 100%;
-  margin-bottom: 380px;
-  position: relative;
+@media screen and (max-width: 1920px) {
+  .three-section {
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 380px;
+    position: relative;
+  }
+  .threepage-pic {
+    width: 100%;
+  }
+  .phone-three-pic {
+    display: none;
+  }
+  .threepage-pic > img {
+    width: 100%;
+  }
+
+  .three-content {
+    max-width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 18%;
+    color: #f9f9f9;
+  }
+
+  .newproduct {
+    position: absolute;
+    bottom: 40%;
+    left: 26%;
+    color: #f9f9f9;
+  }
+  .border-bottom-white {
+    position: relative;
+    left: 0px;
+    width: 60px;
+    height: 20px;
+    border-bottom: 3px solid #f9f9f9;
+  }
+  /*在文字下面放線*/
+  .border-bottom-blue {
+    position: relative;
+    left: 0px;
+    width: 60px;
+    height: 20px;
+    border-bottom: 3px solid #659de1;
+  }
+
+  .button-black {
+    position: absolute;
+    border-radius: 40px;
+    bottom: 40%;
+    right: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 234px;
+    background-color: #9494943f;
+  }
+  .button-black > a {
+    color: #f9f9f9;
+    text-decoration: none;
+  }
+
+  .box {
+    max-width: 1920px;
+    display: flex;
+
+    height: 600px;
+    position: absolute;
+    z-index: 2;
+    bottom: -45%;
+    right: -30%;
+  }
+
+  .box1 {
+    height: 100%;
+    width: 20%;
+    margin-right: 20px;
+  }
+
+  .box1-pic {
+    width: 100%;
+    height: 70%;
+  }
+  .box1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .item-1 {
+    width: 100%;
+    padding: 0 10px;
+
+    height: 30%;
+  }
+
+  .item-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  .card-button {
+    border-radius: 40px;
+    padding: 8px 0;
+    text-align: center;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    border: 2px solid #659de1;
+  }
+
+  .container-1 {
+    margin: 0 auto;
+    width: 1200px;
+  }
+  .best-selling-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button-blue-bg {
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    border: 2px solid #659de1;
+  }
+  .button-blue-bg a {
+    color: #659de1;
+    text-decoration: none;
+  }
+
+  .button03 {
+    margin-bottom: 146px;
+    margin-left: 27%;
+    display: flex;
+  }
 }
-.threepage-pic {
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .three-section {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 380px;
+    position: relative;
+  }
+  /*桌機板的圖要隱藏掉*/
+  .threepage-pic {
+    display: none;
+  }
+
+  /*在桌機隱藏 在手機出現的圖*/
+  .phone-three-pic {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  /*在桌機隱藏 在手機出現的圖*/
+  .phone-three-pic > img {
+    width: 100%;
+    height: 100%;
+  }
+  /*重疊在圖片上的文字*/
+  .three-content {
+    width: 70%;
+    position: absolute;
+    left: 6%;
+    color: #f9f9f9;
+  }
+  .py-15 {
+    padding: 2% 0;
+  }
+  .fontsize60 {
+    font-size: 24px;
+  }
+  .fontsize16 {
+    font-size: 12px;
+  }
+
+  .newproduct {
+    position: absolute;
+    bottom: 40%;
+    left: 4%;
+    color: #f9f9f9;
+  }
+  .border-bottom-white {
+    position: relative;
+    left: 0px;
+    width: 60px;
+    height: 20px;
+    border-bottom: 3px solid #f9f9f9;
+  }
+
+  /* .border-bottom-blue {
+    position: relative;
+    left: 0px;
+    width: 60px;
+    height: 20px;
+    border-bottom: 3px solid #659de1;
+  } */
+
+  .button-black {
+    display: none;
+  }
+
+  .box {
+    width: 960px;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    bottom: -65%;
+    left: 0%;
+  }
+
+  .box1 {
+    height: 100%;
+    width: 20%;
+    margin: 0 0.5%;
+  }
+
+  .box1-pic {
+    width: 100%;
+    height: 60%;
+  }
+  .box1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .item-1 {
+    width: 100%;
+    padding: 0 10px;
+
+    height: 30%;
+  }
+
+  .item-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  .card-button {
+    border-radius: 40px;
+    padding: 8px 0;
+    text-align: center;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    border: 2px solid #659de1;
+  }
+  .button03 {
+    display: none;
+    margin-bottom: 146px;
+    margin-left: 27%;
+    display: flex;
+  }
+}
+/*1111111111111111111111111111111111111111111111111111*/
+
+.long-colorship {
+  width: 35%;
+  margin-bottom: 30px;
+}
+.long-colorship img {
   width: 100%;
-}
-.threepage-pic > img {
-  width: 100%;
-}
-
-.three-content {
-  max-width: 50%;
-  position: absolute;
-  top: 5%;
-  left: 18%;
-  color: #f9f9f9;
-}
-
-.newproduct {
-  position: absolute;
-  bottom: 40%;
-  left: 26%;
-  color: #f9f9f9;
-}
-.border-bottom-white {
-  position: relative;
-  left: 0px;
-  width: 60px;
-  height: 20px;
-  border-bottom: 3px solid #f9f9f9;
-}
-/*在文字下面放線*/
-.border-bottom-blue {
-  position: relative;
-  left: 0px;
-  width: 60px;
-  height: 20px;
-  border-bottom: 3px solid #659de1;
-}
-
-.button-black {
-  position: absolute;
-  border-radius: 40px;
-
-  bottom: 40%;
-  right: 25%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 55px;
-  width: 234px;
-  background-color: #9494943f;
-}
-.button-black > a {
-  color: #f9f9f9;
-  text-decoration: none;
-}
-
-.box {
-  max-width: 1920px;
-  display: flex;
-
-  height: 600px;
-  position: absolute;
-  z-index: 2;
-  bottom: -45%;
-  right: -30%;
-}
-
-.box1 {
-  height: 100%;
-  width: 20%;
-  margin-right: 20px;
-}
-
-.box1-pic {
-  width: 100%;
-  height: 70%;
-}
-.box1 img {
-  width: 100%;
-  height: 100%;
-}
-
-.item-1 {
-  width: 100%;
-  padding: 0 10px;
-
-  height: 30%;
-}
-
-.item-2 {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding-right: 10px;
-  margin-top: 24px;
-  margin-bottom: 16px;
-}
-.card-button {
-  border-radius: 40px;
-  padding: 8px 0;
-  text-align: center;
-  justify-content: center;
-  height: 35px;
-  width: 100px;
-  border: 2px solid #659de1;
 }
 
 .container-1 {
+  display: none;
   margin: 0 auto;
   width: 1200px;
 }
 .best-selling-group {
+  display: none;
   display: flex;
   justify-content: space-between;
 }
 
 .button-blue-bg {
+  display: none;
   border-radius: 40px;
   display: flex;
   align-items: center;
@@ -766,23 +933,12 @@ li {
   border: 2px solid #659de1;
 }
 .button-blue-bg a {
+  display: none;
   color: #659de1;
   text-decoration: none;
 }
 
-.button03 {
-  margin-bottom: 146px;
-  margin-left: 27%;
-  display: flex;
-}
-
-.long-colorship {
-  width: 35%;
-  margin-bottom: 30px;
-}
-.long-colorship img {
-  width: 100%;
-}
+/**/
 
 .best-selling-item {
   display: flex;
