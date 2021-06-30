@@ -184,14 +184,22 @@ li {
 @media screen and (max-width: 1920px) {
   .container {
     margin: 0 auto;
-    width: 100%;
+    max-width: 1920px;
     overflow: hidden;
     position: relative;
+  }
+  .container-1 {
+    margin: 0 auto;
+    max-width: 1200px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 576px) {
   .container {
+    max-width: 576px;
+  }
+  .container-1 {
+    margin: 0 auto;
     max-width: 576px;
   }
   .nav > .three-gp-flex {
@@ -783,7 +791,7 @@ li {
   .three-section {
     width: 100%;
     height: 100%;
-    margin-bottom: 380px;
+    margin-bottom: 330px;
     position: relative;
   }
   /*桌機板的圖要隱藏掉*/
@@ -896,46 +904,63 @@ li {
   }
   .button03 {
     display: none;
-    margin-bottom: 146px;
-    margin-left: 27%;
+    margin-bottom: 64px;
+    margin-left: 4%;
     display: flex;
   }
+  .long-colorship {
+    width: 60%;
+    height: 15px;
+    margin-bottom: 30px;
+  }
+  .long-colorship img {
+    width: 100%;
+    height: 100%;
+  }
 }
-/*1111111111111111111111111111111111111111111111111111*/
+/*----------------第四頁rwd---------------*/
+@media screen and (max-width: 1920px) {
+  .best-selling-group {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.long-colorship {
-  width: 35%;
-  margin-bottom: 30px;
+  .button-blue-bg {
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    border: 2px solid #659de1;
+  }
+  .button-blue-bg a {
+    color: #659de1;
+    text-decoration: none;
+  }
 }
-.long-colorship img {
-  width: 100%;
-}
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .best-selling-group {
+    display: none;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.container-1 {
-  display: none;
-  margin: 0 auto;
-  width: 1200px;
-}
-.best-selling-group {
-  display: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-.button-blue-bg {
-  display: none;
-  border-radius: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  width: 300px;
-  border: 2px solid #659de1;
-}
-.button-blue-bg a {
-  display: none;
-  color: #659de1;
-  text-decoration: none;
+  .button-blue-bg {
+    display: none;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    border: 2px solid #659de1;
+  }
+  .button-blue-bg a {
+    display: none;
+    color: #659de1;
+    text-decoration: none;
+  }
 }
 
 /**/
