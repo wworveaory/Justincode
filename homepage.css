@@ -1075,9 +1075,7 @@ li {
     color: #f9f9f9;
     text-decoration: none;
   }
-  .logo3 {
-    display: none;
-  }
+
   /*footer的群組*/
   .footer-group {
     display: flex;
@@ -1103,6 +1101,14 @@ li {
   .four-information a {
     color: #f9f9f9;
     text-decoration: none;
+  }
+
+  .footer-icon {
+    display: flex;
+  }
+
+  .phone-footer-icon {
+    display: none;
   }
 
   .map,
@@ -1215,6 +1221,13 @@ li {
   }
   .footer-left {
     display: none;
+  }
+  .footer-icon {
+    display: none;
+  }
+
+  .phone-footer-icon {
+    display: flex;
   }
 
   /*.button-w =白色方形按鈕*/
