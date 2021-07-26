@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<style>
+    .bg-b {
+        background-color: rgb(28, 28, 28);
+    }
+
+    .bg-s {
+        background-color: rgb(234, 231, 231);
+    }
+
+    p {
+        margin: 0;
+
+    }
+
+    .row-logo {
+        height: 30px;
+    }
+
+    .row-logo img {
+        height: 100%;
+    }
+
+    .pl-3 {
+        color: black;
+    }
+
+    .row img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .container-x1 {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .border-1 {
+        border-top: rgb(63, 63, 63) 0.5px solid;
+        border-bottom: rgb(63, 63, 63) 0.5px solid;
+    }
+
+    .border-2 {
+        border-right: rgb(63, 63, 63) 0.5px solid;
+    }
+
+    @media(min-width: 576px) {
+        .container-x1 {
+            max-width: 400px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container-x1 {
+            max-width: 650px;
+        }
+    }
+
+    @media(min-width: 992px) {
+        .container-x1 {
+            max-width: 850px;
+        }
+
+    }
+
+    .row a {
+        width: 33%;
+    }
+
+    .xs-img img {
+        width: 60px;
+    }
+
+    .p {
+        left: 50%;
+
+    }
+
+    .psn {
+        left: 10%;
+        transform: translateX(-10%);
+        top: 70%;
+    }
+
+    .psn-2 {
+        bottom: 15%;
+        left: 10%;
+    }
+
+    .button {
+        border-radius: 0;
+        width: 150px;
+        padding: 5px;
+    }
+
+    .button-sm {
+        border-radius: 0;
+        padding: 5px;
+        width: 480px;
+    }
+
+
+
+    .pic-2 img {
+        object-position: 90%;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .icon-invison {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-local {
+        width: 20px;
+        height: 20px;
+        fill: red;
+    }
+
+    .logo-size img {
+        width: 50px;
+        height: 30px;
+    }
+
+    .icon-user {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-clipboard,
+    .icon-instagram, .icon-internetexplorer {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-sonarcloud,
+    .icon-periscope,
+    .icon-steinberg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-plus,
+    .icon-play3 {
+        width: 10px;
+        height: 10px;
+        fill: white;
+    }
+
+    .border-small {
+        border-top: red 2px solid;
+
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="navbar bg-b">
+            <div class="row-logo  d-none d-md-block">
+                <img src="./img/freshfoam.png" alt="">
+            </div>
+            <div class="text-white mx-auto">
+                <small>註冊成爲本網站會員即享首次9折優惠*<a href="#" class=" text-white">了解更多</a></small>
+            </div>
+
+            <div class="d-none d-md-block ">
+                <div class="d-flex align-items-center ">
+                    <svg class="icon-local">
+                        <use xlink:href="symbol-defs.svg#icon-local_pizza"></use>
+                    </svg>
+                    <p class="text-white">門市資訊</p>
+                    <svg class="icon-invison ml-3">
+                        <use xlink:href="symbol-defs.svg#icon-invision"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <nav>
+        <div class=" d-flex align-items-center px-sm-3 py-sm-1 shadow-sm bg-white rounded">
+            <!-- 這段code從0到767px之間顯示，從768到1200之間隱藏 -->
+            <div class="d-block d-md-none  w-100 px-2">
+                <div class="row align-items-center">
+                    <div class="col-4 x-item  d-flex justify-content-start">
+                        <svg class="icon-clipboard">
+                            <use xlink:href="symbol-defs.svg#icon-clipboard"></use>
+                        </svg>
+                        <p><a href="#" class="text-dark">未加入商品</a></p>
+                    </div>
+
+                    <div class="col-4 xs-img d-flex justify-content-center">
+                        <img src="./img/logo.png" title="" alt="">
+                    </div>
+
+                    <div class="col-4 d-flex justify-content-end ">
+                        <div class="pos-f-t">
+                            <div class="collapse" id="navbarToggleExternalContent">
+                                <div class="bg-dark p-4">
+                                    <h5 class="text-white h4">Collapsed content</h5>
+                                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                                </div>
+                            </div>
+                            <nav class="navbar navbar-light">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarToggleExternalContent"
+                                    aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="mx-3 my-3 d-flex mx-auto">
+                        <form action="0">
+                            <input type="text" value="" placeholder="搜索" size="60">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 這段code從0到767px之間隱藏，從768到1200之間顯示 -->
+            <div class="d-none d-md-block logo-size">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="mr-md-auto   d-none d-md-block">
+                <a href=" #" class="pl-3">男子</a>
+                <a href="#" class="pl-3">女子</a>
+                <a href="#" class="pl-3">兒童</a>
+            </div>
+            <div class="d-none d-md-block">
+                <form action="">
+                    <input type="text" value="" placeholder="搜索">
+                </form>
+            </div>
+
+            <div class="d-none d-md-block ml-4">
+                <div class="d-flex">
+                    <svg class="icon-user">
+                        <use xlink:href="symbol-defs.svg#icon-user"></use>
+                    </svg>
+                    <a href="#" class="mr-3 text-dark">登入 / 註冊</a>
+
+                    <svg class="icon-clipboard">
+                        <use xlink:href="symbol-defs.svg#icon-clipboard"></use>
+                    </svg>
+                    <a href="#" class="text-dark">未加入商品</a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- 這段code從0到767px之間顯示，從768到1200之間隱藏 -->
+    <div class="container mb-5 d-block d-md-none ">
+        <div class="row px-2 pic-2 ">
+            <img src="./img/01-small.jpg" alt="" draggable="false">
+        </div>
+        <div class="mt-4 d-flex justify-content-center">
+            <button type="button" class="btn btn-danger button-sm "><a href="#" class="text-white ">立即選購</a></button>
+        </div>
+    </div>
+
+    <!--這段code從0到767px之間隱藏，從768到1200之間顯示 -->
+    <div class="container mb-5 d-none d-md-block ">
+        <div class="row px-0 position-relative">
+            <img src="./img/01.jpg" alt="" draggable="false">
+            <div class="position-absolute psn">
+                <button type="button" class="btn btn-danger button"><a href="#" class="text-white">立即選購</a></button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row d-flex justify-content-between mb-5 ">
+            <div class="col-md-6 px-2 mb-5">
+                <div class="box">
+                    <div class="text-center">
+                        <img src="./img/06.jpg" class="mb-4">
+
+                        <h5 class="font-weight-bold mb-0">即將上市 敬請期待</h5>
+                        <div class=" mb-2">
+                            <small>全新574配色</small>
+                        </div>
+                        <small><a href="#" class="text-danger">574男款></a>&nbsp &nbsp<a href="#"
+                                class="text-danger">574女款></a></small>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6  px-2 mb-5">
+                <div class="box">
+                    <div class="text-center">
+                        <img src="./img/03.jpg" alt="" class="mb-4">
+                        </img>
+                        <h5 class="font-weight-bold mb-0">大勢拼貼</h5>
+                        <div class=" mb-2">
+                            <small>530</small>
+                        </div>
+                        <div><a href="#" class="text-danger">立即選購</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 px-2 mb-5">
+                <div class="box">
+                    <div class="text-center">
+                        <img src="./img/04.jpg" class="mb-4">
+                        </img>
+                        <h5 class="font-weight-bold mb-0">最新配色</h5>
+                        <div class=" mb-2">
+                            <small>530</small>
+                        </div>
+                        <small><a href="#" class="text-danger">立即選購</a></small>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6  px-2 mb-5">
+                <div class="box">
+                    <div class="text-center">
+                        <img src="./img/05.jpg" alt="復古風潮來襲 本季必收韓系鞋款" class="mb-4">
+                        </img>
+                        <h5 class="font-weight-bold mb-0">復古風潮來襲 本季必收韓系鞋款</h5>
+                        <div class=" mb-2">
+                            <small>452</small>
+                        </div>
+                        <small><a href="#" class="text-danger">立即選購</a></small>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6  px-2 mb-5">
+                <div class="box">
+                    <div class="text-center">
+                        <img src="./img/06.jpg" class="mb-4">
+                        </img>
+                        <h5 class="font-weight-bold mb-0">融合80與90年代美學</h5>
+                        <div class=" mb-2">
+                            <small>57/40</small>
+                        </div>
+                        <small><a href="#" class="text-danger">選購男款></a>&nbsp &nbsp<a href="#"
+                                class="text-danger">選購女款></a></small>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 px-2 ">
+                <div class="box">
+                    <div class="text-center">
+                        <img src="./img/07.jpg" class="mb-4">
+                        </img>
+                        <h5 class="font-weight-bold mb-0">經典完美</h5>
+                        <div class=" mb-2">
+                            <small>英美製</small>
+                        </div>
+                        <small><a href="#" class="text-danger">選購男款></a>&nbsp &nbsp<a href="#"
+                                class="text-danger">選購女款></a></small>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 這段code從0到767px之間顯示，從768到1200之間隱藏 -->
+    <div class="container mb-5 d-block d-md-none bg-s  ">
+        <div class="row pic-2">
+            <img src="./img/08-small.jpg" alt="" draggable="false">
+        </div>
+        <div>
+            <h1 class="py-2">The KAWHI </h1>
+        </div>
+
+
+        <div><span class="border-small pt-2">Kawhl Leonard </span><span>NBA全明星賽戰靴</span></div>
+
+        <div class="mt-4 d-flex justify-content-center pb-4">
+            <button type="button" class="btn btn-danger button-sm "><a href="#" class="text-white ">立即選購</a></button>
+        </div>
+    </div>
+
+    <!--這段code從0到767px之間隱藏，從768到1200之間顯示 -->
+    <div class="container mb-5 d-none d-md-block">
+        <div class="row px-0 position-relative">
+            <img style="height: auto;" src="./img/08.jpg" alt="">
+            <div class="position-absolute psn-2">
+                <button type="button" class="btn btn-danger button"><a href="#" class="text-white">立即選購</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 這段code從0到767px之間顯示，從768到1200之間隱藏 -->
+    <footer>
+        <div class="bg-b border-primary d-block d-md-none">
+            <div class="col-12 py-3 border-1 d-flex justify-content-between align-items-center">
+                <a href="#" class="text-white">聯絡我們</a>
+                <svg class="icon-sonarcloud ">
+                    <use xlink:href="symbol-defs.svg#icon-sonarcloud"></use>
+                </svg>
+            </div>
+            <div class="col-12 py-3  border-1  d-flex justify-content-between align-items-center">
+                <a href="#" class="text-white">門市資訊</a>
+                <svg class="icon-periscope ">
+                    <use xlink:href="symbol-defs.svg#icon-periscope"></use>
+                </svg>
+            </div>
+            <div class="col-12 py-3  border-1  d-flex justify-content-between align-items-center">
+                <a href="#" class="text-white">訂閱電子報</a>
+                <svg class="icon-steinberg ">
+                    <use xlink:href="symbol-defs.svg#icon-steinberg"></use>
+                </svg>
+            </div>
+            <div class="col-12 py-2  border-1 d-flex justify-content-between align-items-center">
+                <a href="#" class="text-white">客戶服務</a>
+                <svg class="icon-plus ">
+                    <use xlink:href="symbol-defs.svg#icon-plus"></use>
+                </svg>
+            </div>
+            <div class="col-12 py-2  border-1 d-flex justify-content-between align-items-center">
+                <a href="#" class="text-white">訂單查詢</a>
+                <svg class="icon-plus ">
+                    <use xlink:href="symbol-defs.svg#icon-plus"></use>
+                </svg>
+            </div>
+            <div class="col-12 py-2  border-1 d-flex justify-content-between align-items-center">
+                <a href="#" class="text-white">關於 NEW BALANCE</a>
+                <svg class="icon-plus ">
+                    <use xlink:href="symbol-defs.svg#icon-plus"></use>
+                </svg>
+            </div>
+            <div class="col-12 py-2  border-1 d-flex justify-content-between align-items-center">
+                <a href="#" class="text-white">關注我們</a>
+                <svg class="icon-plus ">
+                    <use xlink:href="symbol-defs.svg#icon-plus"></use>
+                </svg>
+            </div>
+            <div class="col-12 py-2  border-1 d-flex justify-content-between align-items-center">
+                <div>
+                    <svg class="icon-invison">
+                        <use xlink:href="symbol-defs.svg#icon-invision"></use>
+
+                    </svg>
+                    <a href="#" class="text-white">更改國/地區</a>
+                </div>
+                <svg class=" icon-play3">
+                    <use xlink:href="symbol-defs.svg#icon-play3"></use>
+                </svg>
+            </div>
+
+            <div class="d-flex text-center mb-4">
+                <div class="col-6 py-2  border-1 border-2">
+                    <a href="#" class="text-white">繁中</a>
+
+                </div>
+                <div class="col-6 py-2  border-1">
+                    <a href="#" class="text-white">EN</a>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center ">
+                <ul class="list-unstyled  ">
+                    <li><small><a href="#" class="text-white ">2020 New Balance</a> </small></li>
+                    <li class="text-center"><small><a href="#" class="text-white ">隱私政策</a></small> </li>
+                    <li class="text-center"><small><a href="#" class="text-white">條款及細則</a></small> </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- 這段code從0到767px之間隱藏，從768到1200之間顯示 -->
+    <footer>
+        <div class=" pt-3 bg-b  d-none d-md-block ">
+            <div class="container-x1 ">
+                <div class="row px-5 pb-3 text-center text-sm-left align-items-center ">
+                    <div class="col-sm-4  ">
+                        <svg class="icon-sonarcloud mr-2">
+                            <use xlink:href="symbol-defs.svg#icon-sonarcloud"></use>
+                        </svg>
+                        <a href="#" class="text-white">聯絡我們</a>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <svg class="icon-periscope mr-2">
+                            <use xlink:href="symbol-defs.svg#icon-periscope"></use>
+                        </svg>
+                        <a href="#" class=" text-white">門市資訊</a>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <svg class="icon-steinberg mr-2">
+                            <use xlink:href="symbol-defs.svg#icon-steinberg"></use>
+                        </svg>
+                        <a href="#" class=" text-white">訂閱電子報</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer>
+        <div class="bg-b border-1 py-3 d-none d-md-block ">
+            <div class="container-x1 ">
+                <div class="row text-center text-sm-left">
+                    <div class="col-md-3 mb-3">
+                        <ul class="list-unstyled my-0">
+                            <li class="mb-4"><a href="#" class=" text-white">聯繫我們</a></li>
+                            <li><a href="#" class=" text-white">常見問題</a></li>
+                            <li> <a href="#" class=" text-white">網上購物指南</a></li>
+                            <li><a href="#" class=" text-white">尺碼對照表</a></li>
+                            <li class="mb-4"> <a href="#" class=" text-white">聯絡我們</a></li>
+                        </ul>
+                        <p><small class=" text-white">+886-2-5594-1608</small></p>
+                        <p><small class=" text-white">周一至周五: 上午 9:30至下午1:00;
+                                下午2:00至下午6:30</small></p>
+                    </div>
+
+                    <div class=" col-md-3 mb-3">
+                        <ul class="list-unstyled my-0">
+                            <li class="mb-4"><a href="#" class=" text-white">訂單查詢</a></li>
+                            <li><a href="#" class=" text-white">訂單追蹤</a></li>
+                            <li> <a href="#" class=" text-white">送貨服務</a></li>
+                            <li><a href="#" class=" text-white">退款/退換政策</a></li>
+                            <li class="mb-4"> <a href="#" class=" text-white">收藏清單</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <ul class="list-unstyled my-0">
+                            <li class="mb-4"><a href="#" class=" text-white">關於NEW BALANCE</a></li>
+                            <li><a href="#" class=" text-white">企業資訊</a></li>
+                            <li> <a href="#" class=" text-white">加入 New Balance</a></li>
+                            <li><a href="#" class=" text-white">英國製</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2 mb-3">
+                        <ul class="list-unstyled my-0">
+                            <li class="mb-4"><a href="#" class=" text-white">關注我們</a></li>
+                            <li class="ml-2">
+                                <a href="#" class=" text-white">
+                                    <svg class="icon-instagram mr-2">
+                                        <use xlink:href="./icomoon/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+
+                                <a href="#" class=" text-white">
+                                    <svg class="icon-internetexplorer">
+                                        <use xlink:href="./icomoon/symbol-defs.svg#http://www.w3.org/2000/svg"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer>
+        <div class="bg-b  d-none d-md-block ">
+            <div class="container-x1">
+                <div class="text-center">
+                    <p class="text-white py-3 "><small>2020 newblances / 隱私政策 /條款及細則</small></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
