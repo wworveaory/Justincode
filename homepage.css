@@ -136,6 +136,7 @@ table {
 
 body {
   background-color: #f9f9f9;
+  position: relative;
 }
 
 li {
@@ -181,6 +182,9 @@ li {
 }
 .d-flex {
   display: flex;
+}
+.align-center{
+  align-items: center;
 }
 
 /*container    rwd*/
@@ -252,8 +256,6 @@ li {
   }
   .three-gp-flex {
     display: flex;
- 
-    
     align-items: center;
   }
 
@@ -303,6 +305,12 @@ li {
   .nav-icon-4 {
     width: 20px;
     height: 20px;
+    fill: #f9f9f9;
+  }
+  
+  .chartbox-icon {
+    width: 30px;
+    height: 31px;
     fill: #f9f9f9;
   }
 
@@ -821,6 +829,23 @@ li {
     margin-left: 27%;
     display: flex;
   }
+  .chart-box{
+    background-color: #FF5554;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    right:0;
+    top:20px;
+  }
+
+
+
+
+
 }
 @media screen and (min-width: 320px) and (max-width: 576px) {
   .three-section {
