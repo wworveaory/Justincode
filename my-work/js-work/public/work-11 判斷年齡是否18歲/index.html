@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../fontawesome-free-5.15.3-web/css/all.css">
+</head>
+<style>
+    .a {
+        background-color: rgb(87, 165, 42);
+        width: 700px;
+        height: 700px;
+        /* font-size: 100px; */
+    }
+
+    .b {
+        background-color: brown;
+        width: 200px;
+        height: 200px;
+    }
+</style>
+
+<body>
+
+    <h1>出生年月日</h1>
+    西元<select name="year" id="year">年
+    </select>
+    月<select name="month" id="month">
+    </select>
+    日<select name="date" id="date" disabled>
+    </select>
+    <button id='checkAge'>點偶</button>
+    <h3 id='message'>是否滿18歲:</h3>
+
+    <script src='index.js'></script>
+
+</body>
+
+</html>
