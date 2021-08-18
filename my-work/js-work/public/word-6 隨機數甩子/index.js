@@ -33,3 +33,4 @@ start.addEventListener('click', function () {
   driceIcon.innerHTML = `<i class="fas fa-dice-${driceType}"></i>`
   driceCount.innerText = random + '點'
 })
+// case裡面的判斷是若是成功拿到值 就會回傳資料給driceType 此時把它放進fontAwSOME裡面接值就得出答案

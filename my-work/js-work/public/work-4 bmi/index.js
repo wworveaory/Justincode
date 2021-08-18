@@ -11,3 +11,5 @@ countbtn.addEventListener('click',function(){
   //換算成bmi
   total.innerText=mm.toFixed(2)  
 })
+
+///取到值做計算

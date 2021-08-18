@@ -60,7 +60,7 @@ month.addEventListener('change', () => {
     date.disabled = false
   }
   ///尋找某年某月有幾天
-  let datedays = new Date(1994, 6, 0).getDate()
+  let datedays = new Date( yearitem, monthitem, 0).getDate()
   console.log(datedays)
 
   date.innerHTML = abc(1, datedays)

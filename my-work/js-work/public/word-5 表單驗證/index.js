@@ -14,7 +14,7 @@ register.addEventListener('click', function () {
   let erro = ''
 
   ////if else判斷式
-  //1.判斷資料是否存在，如果沒有了話erro就會增加資訊，資訊會隨著true越多而增加
+  //1.先取input的值，判斷值是否存在，如果沒有了話erro就會增加錯誤提示資訊，資訊會隨著true越多而增加
   //2.最後再用message.innerHTML接收erro的值，然後那判斷，erro裡面有沒又值，有值就直接寫erro，如果沒有就代表沒有錯誤，也就是說表單驗證成功!
   // if(!username.value){
   //   erro+='名子'

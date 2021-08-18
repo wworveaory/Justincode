@@ -76,22 +76,11 @@ class product{
 }
 
 //建立新物件 
-let product1=new product('banana',5858,0966857589)
-// console.log(product1.names)
+// let product1=new product('banana',5858,0966857589)
+// console.log(product1)
 let product2=new product('cake',6868,0911157589)
 // console.log(product2)
 // console.log(product2.group())
 
 // let product3 ={names:'banana',price:5858,phone:0911157589}
 // console.log(product3)
-
-var ming={
-  name:"小明"
-}
-console.log(ming)
-var run = function () {
-  return this.name + ' 跑向世界的另一端'
-}
-ming.__proto__.run = run;
-// console.log(ming.name); // {name: "小明"}
-// console.log(ming.run()); // "小明 跑向世界的另一端"
