@@ -1,7 +1,6 @@
 // let language='mandarin';
-// let c=''
-// //意思是指先給定一個變數和值，之後再從case中找出正確的答案並log出來
-// switch(c){
+
+// switch(language){
 //   //當有兩個case代表或者(則1)都可得到答案
 //   case 'chinese':
 //   case 'mandarin':
@@ -40,11 +39,7 @@
 // }
 
 //比較運算值必須拿變數名稱比較嚴格比較變數的值是否正確
-// let language='ma15'
-// if(language === 'chinese' || language === 'mandarin'){
-//   console.log('aa')
-// }
-
-if(true&&true&&true){
-  console.log('123')
+let language='ma15'
+if(language === 'chinese' || language === 'mandarin'){
+  console.log('aa')
 }

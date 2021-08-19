@@ -87,9 +87,9 @@ checkAge.addEventListener('click', function () {
   console.log(monthitem) //8
   console.log(dateitem)
   ///
-  ///接下來用三元運算子的判斷，預設為false，等到預設為true時出現'您大於18歲'，如果還是false就是'未滿18'
+  ///接下來用三元運算子不需要用if的判斷，預設為false，等到預設為true時出現'您大於18歲'，如果還是false就是'未滿18'
   let isOver18 = false
-
+//短路求值需要用if
   if (currentlyGetYear - yearitem > 18) isOver18 = true
   if (currentlyGetYear - yearitem === 18 && currentlyGetMonth > monthitem)
     isOver18 = true
