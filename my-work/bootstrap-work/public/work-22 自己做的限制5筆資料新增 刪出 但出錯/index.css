@@ -1,0 +1,57 @@
+.container {
+  margin: 3rem auto 1.5rem auto;
+  padding: 0 12px;
+  width: 500px;
+  @media (max-width: 575px) {
+    margin-top: 1.5rem;
+  }
+}
+.card {
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+input[type='text'] {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  padding-right: 1rem;
+}
+.input {
+  padding: 4px 4px 4px 1rem;
+  display: flex;
+}
+.tab {
+  display: flex;
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
+li {
+  padding: 1rem;
+  width: 100%;
+  border-bottom: 2px solid rgb(82, 82, 82);
+}
+.active {
+  border-bottom: 2px solid rgb(246, 203, 9);
+  color: rgb(246, 203, 9);
+  font-weight: bold;
+}
+a.delete {
+  position: absolute;
+  /* opacity: 0; */
+  /* right: 0;
+  top: 50%; */
+  transform: translateY(-50%);
+  text-decoration: none;
+  color: rebeccapurple;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: #000;
+  /* background-image: url('../svg/one.svg'); */
+}

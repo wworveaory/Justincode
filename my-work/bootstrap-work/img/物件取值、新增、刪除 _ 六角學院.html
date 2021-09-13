@@ -1,0 +1,2908 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:32,height:32/https://www.filepicker.io/api/file/90nGuyiBR2GweFk5xoEb' rel='icon' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:72,height:72/https://www.filepicker.io/api/file/90nGuyiBR2GweFk5xoEb' rel='apple-touch-icon' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:144,height:144/https://www.filepicker.io/api/file/90nGuyiBR2GweFk5xoEb' rel='apple-touch-icon' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:320,height:345/https://www.filepicker.io/api/file/zyjKROvLTgGm8FuLVXCa' rel='apple-touch-startup-image' type='image/png'>
+
+<link href='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:640,height:690/https://www.filepicker.io/api/file/zyjKROvLTgGm8FuLVXCa' rel='apple-touch-startup-image' type='image/png'>
+
+<meta name='apple-mobile-web-app-capable' content='yes' />
+<meta charset="UTF-8">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="JssskozFBzyAFU/uEVDBkf90XPjhbJPmsh95CgHiKJZjKuw/bpjik9SmTNvILZbjQLcPdayRk+RjDfT6lrycfQ==" />
+<link rel="stylesheet" media="screen" href="https://fedora.teachablecdn.com/assets/bootstrap-d989a3f5b1f1bca0585c204acf93e7e781ab3db1f16f403a5e77336f1c4d4c0f.css" data-turbolinks-track="true" /><link href="https://themes2.teachablecdn.com/themecss/production/base.css?_=a75f4ef7d35d&amp;brand_course_heading=%23ffffff&amp;brand_heading=%2300251a&amp;brand_homepage_heading=%23ffffff&amp;brand_navbar_fixed_text=%23ffffff&amp;brand_navbar_text=%23ffffff&amp;brand_primary=%2300251a&amp;brand_secondary=%232bbd7e&amp;brand_text=%2300251a&amp;font=Helvetica&amp;logged_out_homepage_background_image_overlay=0.0&amp;logged_out_homepage_background_image_url=https%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2FzyjKROvLTgGm8FuLVXCa" rel="stylesheet" data-turbolinks-track="true"></link>
+<title>物件取值、新增、刪除 | 六角學院</title>
+<meta name="description" content="邁向達人之路">
+<link rel="canonical" href="https://courses.hexschool.com/courses/670037/lectures/11951990">
+<meta property="og:description" content="邁向達人之路">
+<meta property="og:image" content="https://www.filepicker.io/api/file/Z457bcFQQYSr0EmhVZ9A">
+<meta property="og:title" content="物件取值、新增、刪除">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://courses.hexschool.com/courses/670037/lectures/11951990">
+<meta name="brand_video_player_color" content="#2bbd7e">
+<meta name="site_title" content="六角學院">
+<style>.navbar__menu__list {
+  margin-bottom: 0px;
+}
+.navbar.is-not-signed-in.is-homepage {
+  justify-content: center !important;
+}
+.navbar.is-signed-in {
+  justify-content: center !important;
+}
+</style>
+<script src='//fast.wistia.com/assets/external/E-v1.js'></script>
+<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+
+      <meta name="asset_host" content="https://fedora.teachablecdn.com">
+     <script src="https://fedora.teachablecdn.com/packs/student-globals-008fa61ab419d970ac46.js"></script><script src="https://fedora.teachablecdn.com/packs/student-legacy-9359399e0082235e700e.js"></script><script src="https://fedora.teachablecdn.com/packs/student-5135d07e3b6b262c261d.js"></script>
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '518325078292779');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=518325078292779&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<script>
+  if(typeof ga != 'function') {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  }
+  ga('create', 'UA-44397410-1', 'auto', {'name': 'fedoraTracker', 'allowLinker': true});
+  ga('fedoraTracker.set', 'anonymizeIp', false);
+  ga('fedoraTracker.require', 'linker');
+  ga('fedoraTracker.linker:autoLink', ['courses.hexschool.com',  'sso.teachable.com'], false, true );
+  ga('fedoraTracker.require', 'ecommerce');
+  ga('fedoraTracker.require', 'ec');
+  ga('fedoraTracker.send', 'pageview');
+  ga('create', 'UA-44397410-4', 'auto', {'name': 'teachableTracker', 'allowLinker': true});
+  ga('teachableTracker.set', 'anonymizeIp', false);
+  ga('teachableTracker.require', 'linker');
+  ga('teachableTracker.linker:autoLink', ['courses.hexschool.com', 'sso.teachable.com'], false, true );
+  ga('teachableTracker.require', 'ecommerce');
+  ga('teachableTracker.require', 'ec');
+  ga('teachableTracker.send', 'pageview');
+</script>
+
+<link href="/blog/rss" rel="alternate" title="RSS Feed" type="application/rss+xml" />
+<link rel="icon" href="https://www.hexschool.com/favicon.ico">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+  <body data-no-turbolink="true" class="revamped_lecture_player">
+          <meta http-content='IE=Edge' http-equiv='X-UA-Compatible'>
+      <meta content='width=device-width,initial-scale=1.0,user-scalable=no' name='viewport'>
+<meta id="fedora-keys" data-commit-sha="a75f4ef7d35dbfb828151a6cccfbf31bfe9f0652" data-env="production" data-sentry-public-dsn="https://8149a85a83fa4ec69640c43ddd69017d@sentry.io/120346" data-stripe="pk_live_hkgvgSBxG4TAl3zGlXiB1KUX" data-track-all-ahoy="false" data-track-changes-ahoy="false" data-track-clicks-ahoy="false" data-track-sumbits-ahoy="false" data-filepicker="ADNupMnWyR7kCWRvm76Laz" data-iris-url="https://eventable.teachable.cloud" /><meta id="fedora-data" data-report-card="{}" data-course-ids="[]" data-completed-lecture-ids="[]" data-school-id="424940" data-school-launched="true" data-preview="logged_out" data-turn-off-fedora-branding="true" data-plan-supports-whitelabeling="true" data-powered-by-text="Powered by" data-asset-path="//https://fedora.teachablecdn.com/assets/footer/teachable-logomark-white-31d2296978598bacace50e6d48a2e1223c20a9b074af424acdd465676f81560f.svg" data-school-preferences="{&quot;ssl_forced&quot;:&quot;true&quot;,&quot;anonymize_ips&quot;:&quot;false&quot;,&quot;bazaar_enabled&quot;:&quot;false&quot;,&quot;paypal_enabled&quot;:&quot;true&quot;,&quot;autoplay_lectures&quot;:&quot;true&quot;,&quot;comments_threaded&quot;:&quot;true&quot;,&quot;course_blocks_beta&quot;:&quot;true&quot;,&quot;eu_vat_tax_enabled&quot;:&quot;false&quot;,&quot;legacy_back_office&quot;:&quot;false&quot;,&quot;themeable_disabled&quot;:&quot;false&quot;,&quot;back_office_enabled&quot;:&quot;true&quot;,&quot;comments_moderation&quot;:&quot;false&quot;,&quot;eu_vat_tax_eligible&quot;:&quot;true&quot;,&quot;charge_exclusive_tax&quot;:&quot;true&quot;,&quot;send_receipts_emails&quot;:&quot;true&quot;,&quot;autocomplete_lectures&quot;:&quot;false&quot;,&quot;class_periods_enabled&quot;:&quot;false&quot;,&quot;authors_can_manage_pbc&quot;:&quot;true&quot;,&quot;css_properties_enabled&quot;:&quot;false&quot;,&quot;preenrollments_enabled&quot;:&quot;false&quot;,&quot;new_text_editor_enabled&quot;:&quot;true&quot;,&quot;require_terms_agreement&quot;:&quot;true&quot;,&quot;send_new_comment_emails&quot;:&quot;true&quot;,&quot;send_drip_content_emails&quot;:&quot;true&quot;,&quot;ssl_forced_from_creation&quot;:&quot;true&quot;,&quot;turn_off_fedora_branding&quot;:&quot;true&quot;,&quot;allow_comment_attachments&quot;:&quot;true&quot;,&quot;authors_can_email_students&quot;:&quot;false&quot;,&quot;authors_can_manage_coupons&quot;:&quot;false&quot;,&quot;teachable_accounts_enabled&quot;:&quot;true&quot;,&quot;teachable_payments_enabled&quot;:&quot;true&quot;,&quot;authors_can_import_students&quot;:&quot;false&quot;,&quot;authors_can_publish_courses&quot;:&quot;false&quot;,&quot;internal_subscriptions_beta&quot;:&quot;true&quot;,&quot;recaptcha_enabled_on_signup&quot;:&quot;true&quot;,&quot;tax_form_collection_enabled&quot;:&quot;false&quot;,&quot;display_vat_inclusive_prices&quot;:&quot;true&quot;,&quot;single_page_checkout_enabled&quot;:&quot;true&quot;,&quot;authors_can_set_course_prices&quot;:&quot;false&quot;,&quot;send_lead_confirmation_emails&quot;:&quot;true&quot;,&quot;affiliate_cookie_duration_days&quot;:&quot;365&quot;,&quot;authors_can_issue_certificates&quot;:&quot;false&quot;,&quot;store_student_cards_separately&quot;:&quot;true&quot;,&quot;affiliate_external_urls_enabled&quot;:&quot;true&quot;,&quot;authors_can_manage_certificates&quot;:&quot;false&quot;,&quot;authors_can_manage_course_pages&quot;:&quot;false&quot;,&quot;prevent_new_coupon_applications&quot;:&quot;true&quot;,&quot;disable_js_course_event_tracking&quot;:&quot;false&quot;,&quot;exclusive_vat_on_custom_gateways&quot;:&quot;true&quot;,&quot;is_edit_site_onboarding_complete&quot;:&quot;false&quot;,&quot;send_certificate_issuance_emails&quot;:&quot;true&quot;,&quot;owner_teachable_accounts_required&quot;:&quot;true&quot;,&quot;prevent_payment_plan_cancellation&quot;:&quot;true&quot;,&quot;send_subscription_reminder_emails&quot;:&quot;true&quot;,&quot;automatically_add_disqus_attachments&quot;:&quot;true&quot;,&quot;recalc_course_pct_on_lecture_publish&quot;:&quot;false&quot;,&quot;send_confirmation_instructions_emails&quot;:&quot;true&quot;,&quot;send_limited_time_unenrollment_emails&quot;:&quot;true&quot;,&quot;turn_off_myteachable_sign_up_branding&quot;:&quot;false&quot;}" data-accessible-features="[&quot;bulk_importing_users&quot;,&quot;bulk_enroll_students&quot;,&quot;manually_importing_users&quot;,&quot;native_certificates&quot;,&quot;custom_roles&quot;,&quot;earnings_statements&quot;,&quot;teachable_payments&quot;,&quot;teachable_u&quot;,&quot;course_compliance&quot;,&quot;page_editor_v2&quot;,&quot;page_editor_v2_only&quot;,&quot;certificates_editor_v2&quot;,&quot;drip_content&quot;,&quot;custom_domain&quot;,&quot;coupons&quot;,&quot;graded_quizzes&quot;,&quot;power_editor&quot;,&quot;email&quot;,&quot;course_reports&quot;,&quot;webhooks&quot;,&quot;integrations&quot;,&quot;zapier_action_create_user&quot;,&quot;teachable_payments_payout_view&quot;,&quot;pbc&quot;,&quot;bundles&quot;,&quot;upsells&quot;,&quot;facebook_pixel&quot;,&quot;user_search_filters&quot;,&quot;multiple_course_pages&quot;,&quot;proration_upgrade_flow&quot;,&quot;cross_border_payments&quot;,&quot;limited_time_enrollments&quot;,&quot;sales_tax_on_student_checkout&quot;,&quot;new_device_confirmation&quot;,&quot;elasticsearch_users&quot;,&quot;elasticsearch_transactions&quot;,&quot;reset_progress&quot;,&quot;fraud_warnings&quot;,&quot;paypal_through_tp&quot;,&quot;new_creator_checkout&quot;,&quot;circle_oauth&quot;]" data-course-data="{&quot;is_lecture_order_enforced&quot;:null,&quot;is_minimum_quiz_score_enforced&quot;:null,&quot;is_video_completion_enforced&quot;:null,&quot;minimum_quiz_score&quot;:null,&quot;maximum_quiz_retakes&quot;:null}" data-course-url="https://courses.hexschool.com/courses/670037" data-course-id="670037" data-lecture-id="11951990" data-lecture-url="https://courses.hexschool.com/courses/670037/lectures/11951990" data-quiz-strings="{&quot;check&quot;:&quot;檢查答案&quot;,&quot;error&quot;:&quot;請選擇答案&quot;,&quot;label&quot;:&quot;測驗&quot;,&quot;next&quot;:&quot;下一題&quot;,&quot;previous&quot;:&quot;返回&quot;,&quot;scored&quot;:&quot;你的分數&quot;,&quot;retake&quot;:&quot;重新測驗&quot;,&quot;retry&quot;:&quot;You need a score of at least %{minimumQuizScore}% to continue - you may retake this quiz %{retakes} more time(s).&quot;,&quot;request&quot;:&quot;You need a score of at least %{minimumQuizScore}% to continue - a request has been sent to the school owner to reset your score. You will be notified if the school owner allows you to retake this quiz.&quot;}" /><meta id="analytics-keys" name="analytics" data-analytics="{&quot;Google Analytics&quot;:{&quot;trackingId&quot;:&quot;UA-75631525-20&quot;,&quot;enhancedEcommerce&quot;:true,&quot;sendUserId&quot;:true,&quot;anonymizeIp&quot;:true}}" />
+    
+    <!-- Lecture Header -->
+<header class='full-width half-height is-not-signed-in'>
+  <div class='lecture-left'>
+    <a class='nav-icon-back' aria-label='Back to course curriculum' data-no-turbolink="true" role='button' href='/courses/670037'>
+      <svg width="24" height="24" title="Back to course curriculum">
+        <use xlink:href="#icon__Home"></use>
+      </svg>
+    </a>
+    <div class="dropdown settings-dropdown" role='menubar'>
+      <a href='#' class='nav-icon-settings dropdown-toggle' aria-label='Settings Menu' aria-haspopup='true' role='menuitem' id='settings_menu' data-toggle='dropdown'>
+        <svg width="24" height="24" title="Settings Menu">
+          <use xlink:href="#icon__Settings"></use>
+        </svg>
+      </a>
+      <ul class="dropdown-menu left-caret" role="menu" aria-labelledby="settings_menu">
+  <!-- AUTOPLAY -->
+  <li aria-label="menuitem">
+    <div class="switch" id="switch-autoplay-lectures">
+      <input id="custom-toggle-autoplay" class="custom-toggle custom-toggle-round" name="toggle-autoplay" type="checkbox" aria-label="自動播放">
+      <label for="custom-toggle-autoplay"></label>
+    </div>
+    <span aria-labelledby="switch-autoplay-lectures">自動播放</span>
+  </li>
+  <!-- AUTOCOMPLETE -->
+  <li aria-label="menuitem">
+    <div class="switch" id="switch-autocomplete-lectures">
+      <input id="custom-toggle-autocomplete" class="custom-toggle custom-toggle-round" name="toggle-autocomplete" type="checkbox" aria-label="自動完成">
+      <label for="custom-toggle-autocomplete"></label>
+    </div>
+    <span aria-labelledby="switch-autocomplete-lectures">自動完成</span>
+  </li>
+  <!-- PLAYBACK SPEED -->
+  <li aria-label="menuitem">
+    <div class="pull-right">
+      <button class="playback-speed" role="button">
+      </button>
+    </div>
+    播放速度
+  </li>
+  <!-- QUALITY: not working yet -->
+  <!--  <li>
+    <div class="pull-right">
+      <div class="switch-toggle switch-3 well">
+        <input id="auto" name="quality" type="radio" checked>
+        <label for="auto" onclick="">Auto</label>
+        <input id="hd" name="quality" type="radio">
+        <label for="hd" onclick="">HD</label>
+        <input id="sd" name="quality" type="radio">
+        <label for="sd" onclick="">SD</label>
+        <a class="btn btn-primary"></a>
+      </div>
+    </div>
+    Quality
+  </li> -->
+</ul>
+
+    </div>
+    <a class="nav-icon-list show-xs hidden-sm hidden-md hidden-lg collapsed" aria-label='Course Sidebar' role="button" data-toggle="collapse" href="#courseSidebar" aria-expanded="false" aria-controls="courseSidebar">
+        <svg width="24" height="24" title="Course Sidebar">
+          <use xlink:href="#icon__FormatListBulleted"></use>
+        </svg>
+      </a>
+  </div>
+  
+  <div class='lecture-nav'>
+    <a class='nav-btn' href='' role='button' id='lecture_previous_button'>
+        <svg width="24" height="24" aria-hidden='true'>
+          <use xlink:href="#icon__ArrowBack"></use>
+         </svg>
+      &nbsp;
+      <span class='nav-text'>上一堂課程</span>
+    </a>
+    <a
+      class='nav-btn complete'
+      data-cpl-tooltip='You must complete all lecture material before progressing'
+      data-vpl-tooltip='90% of each video must be completed. You have completed %{progress_completed} of the current video.'
+      href=''
+      id='lecture_complete_button'
+      role='button'
+    >
+      <span class='nav-text'>完成並繼續課程</span>
+      &nbsp;
+      <svg width="24" height="24" aria-hidden='true'>
+          <use xlink:href="#icon__ArrowForward"></use>
+        </svg>
+    </a>
+  </div>
+  
+</header>
+
+    <section class="lecture-page-layout">
+      <div role="navigation" class='course-sidebar lecture-page navbar-collapse navbar-sidebar-collapse' id='courseSidebar' style="height: calc(100vh - 71px); overflow-y: scroll;">
+  <div class='course-sidebar-head'>
+    <h2>JavaScript 核心篇</h2>
+    <!-- Course Progress -->
+    
+  </div>
+  <!-- Lecture list on courses page (enrolled user) -->
+
+  <div class='row lecture-sidebar'>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        課程介紹
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="11951894" data-lecture-url='/courses/javascript/lectures/11951894' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951894'
+            data-ss-event-type='link' data-ss-lecture-id='11951894'
+            data-ss-position='1' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951894' id='sidebar_link_11951894'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                課程介紹
+                
+                (1:38)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951897" data-lecture-url='/courses/javascript/lectures/11951897' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951897'
+            data-ss-event-type='link' data-ss-lecture-id='11951897'
+            data-ss-position='1' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951897' id='sidebar_link_11951897'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                課前說明
+                
+                (1:16)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951901" data-lecture-url='/courses/javascript/lectures/11951901' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951901'
+            data-ss-event-type='link' data-ss-lecture-id='11951901'
+            data-ss-position='1' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951901' id='sidebar_link_11951901'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                撰寫部落格，累積個人聲量
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951902" data-lecture-url='/courses/javascript/lectures/11951902' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951902'
+            data-ss-event-type='link' data-ss-lecture-id='11951902'
+            data-ss-position='1' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951902' id='sidebar_link_11951902'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                六角學院線上社團
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951903" data-lecture-url='/courses/javascript/lectures/11951903' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951903'
+            data-ss-event-type='link' data-ss-lecture-id='11951903'
+            data-ss-position='1' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951903' id='sidebar_link_11951903'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                課程範例
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="32138540" data-lecture-url='/courses/javascript/lectures/32138540' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/32138540'
+            data-ss-event-type='link' data-ss-lecture-id='32138540'
+            data-ss-position='1' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/32138540' id='sidebar_link_32138540'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Apple M1 觀看公告
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        執行環境、作用域
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="11951908" data-lecture-url='/courses/javascript/lectures/11951908' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951908'
+            data-ss-event-type='link' data-ss-lecture-id='11951908'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951908' id='sidebar_link_11951908'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                JavaScript 是如何運行的
+                
+                (8:12)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951909" data-lecture-url='/courses/javascript/lectures/11951909' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951909'
+            data-ss-event-type='link' data-ss-lecture-id='11951909'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951909' id='sidebar_link_11951909'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                執行的錯誤情境 LHS, RHS
+                
+                (4:51)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951911" data-lecture-url='/courses/javascript/lectures/11951911' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951911'
+            data-ss-event-type='link' data-ss-lecture-id='11951911'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951911' id='sidebar_link_11951911'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                語法作用域(Lexical scope)
+                
+                (6:33)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951912" data-lecture-url='/courses/javascript/lectures/11951912' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951912'
+            data-ss-event-type='link' data-ss-lecture-id='11951912'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951912' id='sidebar_link_11951912'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                執行環境與執行堆疊
+                
+                (10:40)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951913" data-lecture-url='/courses/javascript/lectures/11951913' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951913'
+            data-ss-event-type='link' data-ss-lecture-id='11951913'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951913' id='sidebar_link_11951913'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                範圍鍊
+                
+                (5:20)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951914" data-lecture-url='/courses/javascript/lectures/11951914' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951914'
+            data-ss-event-type='link' data-ss-lecture-id='11951914'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951914' id='sidebar_link_11951914'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                提升
+                
+                (13:07)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951915" data-lecture-url='/courses/javascript/lectures/11951915' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951915'
+            data-ss-event-type='link' data-ss-lecture-id='11951915'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951915' id='sidebar_link_11951915'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                測驗：提升的拆解
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951916" data-lecture-url='/courses/javascript/lectures/11951916' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951916'
+            data-ss-event-type='link' data-ss-lecture-id='11951916'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951916' id='sidebar_link_11951916'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Not Defined VS undefined
+                
+                (1:21)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951919" data-lecture-url='/courses/javascript/lectures/11951919' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951919'
+            data-ss-event-type='link' data-ss-lecture-id='11951919'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951919' id='sidebar_link_11951919'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                記憶體存放與釋放
+                
+                (4:33)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951920" data-lecture-url='/courses/javascript/lectures/11951920' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951920'
+            data-ss-event-type='link' data-ss-lecture-id='11951920'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951920' id='sidebar_link_11951920'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                執行緒與同步、非同步
+                
+                (8:40)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951921" data-lecture-url='/courses/javascript/lectures/11951921' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951921'
+            data-ss-event-type='link' data-ss-lecture-id='11951921'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951921' id='sidebar_link_11951921'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                總結複習
+                
+                (5:46)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951923" data-lecture-url='/courses/javascript/lectures/11951923' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951923'
+            data-ss-event-type='link' data-ss-lecture-id='11951923'
+            data-ss-position='2' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951923' id='sidebar_link_11951923'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Quiz"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                執行環境、作用域 - 課後練習
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        運算子、型別與文法
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="11951924" data-lecture-url='/courses/javascript/lectures/11951924' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951924'
+            data-ss-event-type='link' data-ss-lecture-id='11951924'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951924' id='sidebar_link_11951924'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                陳述式與表達式
+                
+                (8:46)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951926" data-lecture-url='/courses/javascript/lectures/11951926' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951926'
+            data-ss-event-type='link' data-ss-lecture-id='11951926'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951926' id='sidebar_link_11951926'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                ASI 自動插入分號
+                
+                (4:51)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951927" data-lecture-url='/courses/javascript/lectures/11951927' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951927'
+            data-ss-event-type='link' data-ss-lecture-id='11951927'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951927' id='sidebar_link_11951927'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                ASI 補充說明
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951928" data-lecture-url='/courses/javascript/lectures/11951928' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951928'
+            data-ss-event-type='link' data-ss-lecture-id='11951928'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951928' id='sidebar_link_11951928'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                動態型別
+                
+                (5:34)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951939" data-lecture-url='/courses/javascript/lectures/11951939' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951939'
+            data-ss-event-type='link' data-ss-lecture-id='11951939'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951939' id='sidebar_link_11951939'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                原始型別及物件型別
+                
+                (6:56)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951970" data-lecture-url='/courses/javascript/lectures/11951970' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951970'
+            data-ss-event-type='link' data-ss-lecture-id='11951970'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951970' id='sidebar_link_11951970'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                運算子
+                
+                (8:05)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951971" data-lecture-url='/courses/javascript/lectures/11951971' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951971'
+            data-ss-event-type='link' data-ss-lecture-id='11951971'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951971' id='sidebar_link_11951971'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                優先性及相依性
+                
+                (10:10)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951972" data-lecture-url='/courses/javascript/lectures/11951972' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951972'
+            data-ss-event-type='link' data-ss-lecture-id='11951972'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951972' id='sidebar_link_11951972'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                寬鬆相等、嚴格相等以及隱含轉型
+                
+                (14:00)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951973" data-lecture-url='/courses/javascript/lectures/11951973' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951973'
+            data-ss-event-type='link' data-ss-lecture-id='11951973'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951973' id='sidebar_link_11951973'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Truthy 與 Falsy
+                
+                (6:03)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951974" data-lecture-url='/courses/javascript/lectures/11951974' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951974'
+            data-ss-event-type='link' data-ss-lecture-id='11951974'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951974' id='sidebar_link_11951974'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                邏輯運算子及函式預設值
+                
+                (6:08)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951975" data-lecture-url='/courses/javascript/lectures/11951975' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951975'
+            data-ss-event-type='link' data-ss-lecture-id='11951975'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951975' id='sidebar_link_11951975'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                預設值為 0 的解決方案
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951977" data-lecture-url='/courses/javascript/lectures/11951977' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951977'
+            data-ss-event-type='link' data-ss-lecture-id='11951977'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951977' id='sidebar_link_11951977'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                總結
+                
+                (9:59)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951980" data-lecture-url='/courses/javascript/lectures/11951980' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951980'
+            data-ss-event-type='link' data-ss-lecture-id='11951980'
+            data-ss-position='3' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951980' id='sidebar_link_11951980'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Quiz"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                運算子、型別與文法 - 課後練習
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        物件
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="11951981" data-lecture-url='/courses/javascript/lectures/11951981' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951981'
+            data-ss-event-type='link' data-ss-lecture-id='11951981'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951981' id='sidebar_link_11951981'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                物件結構
+                
+                (5:49)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951990" data-lecture-url='/courses/javascript/lectures/11951990' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951990'
+            data-ss-event-type='link' data-ss-lecture-id='11951990'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951990' id='sidebar_link_11951990'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                物件取值、新增、刪除
+                
+                (7:01)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951991" data-lecture-url='/courses/javascript/lectures/11951991' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951991'
+            data-ss-event-type='link' data-ss-lecture-id='11951991'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951991' id='sidebar_link_11951991'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                額外補充：變數及物件屬性的差異
+                
+                (3:35)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951993" data-lecture-url='/courses/javascript/lectures/11951993' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951993'
+            data-ss-event-type='link' data-ss-lecture-id='11951993'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951993' id='sidebar_link_11951993'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                物件與純值
+                
+                (5:50)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951994" data-lecture-url='/courses/javascript/lectures/11951994' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951994'
+            data-ss-event-type='link' data-ss-lecture-id='11951994'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951994' id='sidebar_link_11951994'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                未定義的物件屬性預設值
+                
+                (3:51)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951995" data-lecture-url='/courses/javascript/lectures/11951995' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951995'
+            data-ss-event-type='link' data-ss-lecture-id='11951995'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951995' id='sidebar_link_11951995'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                物件的參考特性
+                
+                (8:04)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11951996" data-lecture-url='/courses/javascript/lectures/11951996' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11951996'
+            data-ss-event-type='link' data-ss-lecture-id='11951996'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11951996' id='sidebar_link_11951996'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                物件參考觀念的實際運作模式
+                
+                (19:52)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952002" data-lecture-url='/courses/javascript/lectures/11952002' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952002'
+            data-ss-event-type='link' data-ss-lecture-id='11952002'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952002' id='sidebar_link_11952002'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                物件參考 - 章節作業
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952003" data-lecture-url='/courses/javascript/lectures/11952003' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952003'
+            data-ss-event-type='link' data-ss-lecture-id='11952003'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952003' id='sidebar_link_11952003'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Call by Reference 還是 Call by Sharing
+                
+                (1:53)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952005" data-lecture-url='/courses/javascript/lectures/11952005' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952005'
+            data-ss-event-type='link' data-ss-lecture-id='11952005'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952005' id='sidebar_link_11952005'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                淺層複製及深層複製
+                
+                (7:05)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952007" data-lecture-url='/courses/javascript/lectures/11952007' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952007'
+            data-ss-event-type='link' data-ss-lecture-id='11952007'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952007' id='sidebar_link_11952007'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                陣列
+                
+                (6:12)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952009" data-lecture-url='/courses/javascript/lectures/11952009' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952009'
+            data-ss-event-type='link' data-ss-lecture-id='11952009'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952009' id='sidebar_link_11952009'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                JSON
+                
+                (3:39)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952010" data-lecture-url='/courses/javascript/lectures/11952010' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952010'
+            data-ss-event-type='link' data-ss-lecture-id='11952010'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952010' id='sidebar_link_11952010'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                章節總結測驗
+                
+                (10:01)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952012" data-lecture-url='/courses/javascript/lectures/11952012' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952012'
+            data-ss-event-type='link' data-ss-lecture-id='11952012'
+            data-ss-position='4' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952012' id='sidebar_link_11952012'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Quiz"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                物件 - 課後練習
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        函式以及 This 的運作
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="11952014" data-lecture-url='/courses/javascript/lectures/11952014' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952014'
+            data-ss-event-type='link' data-ss-lecture-id='11952014'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952014' id='sidebar_link_11952014'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                什麼是函式
+                
+                (13:17)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952015" data-lecture-url='/courses/javascript/lectures/11952015' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952015'
+            data-ss-event-type='link' data-ss-lecture-id='11952015'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952015' id='sidebar_link_11952015'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                立即函式
+                
+                (10:10)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952016" data-lecture-url='/courses/javascript/lectures/11952016' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952016'
+            data-ss-event-type='link' data-ss-lecture-id='11952016'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952016' id='sidebar_link_11952016'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                參數
+                
+                (11:50)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952017" data-lecture-url='/courses/javascript/lectures/11952017' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952017'
+            data-ss-event-type='link' data-ss-lecture-id='11952017'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952017' id='sidebar_link_11952017'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                閉包 Closure
+                
+                (6:45)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952018" data-lecture-url='/courses/javascript/lectures/11952018' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952018'
+            data-ss-event-type='link' data-ss-lecture-id='11952018'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952018' id='sidebar_link_11952018'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                閉包進階：工廠模式及私有方法
+                
+                (8:01)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952019" data-lecture-url='/courses/javascript/lectures/11952019' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952019'
+            data-ss-event-type='link' data-ss-lecture-id='11952019'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952019' id='sidebar_link_11952019'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                最常見的 this：物件的方法調用
+                
+                (8:41)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952020" data-lecture-url='/courses/javascript/lectures/11952020' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952020'
+            data-ss-event-type='link' data-ss-lecture-id='11952020'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952020' id='sidebar_link_11952020'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                this：簡易呼叫
+                
+                (6:58)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952021" data-lecture-url='/courses/javascript/lectures/11952021' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952021'
+            data-ss-event-type='link' data-ss-lecture-id='11952021'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952021' id='sidebar_link_11952021'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                this：call, apply, bind 與 嚴謹模式
+                
+                (14:47)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952024" data-lecture-url='/courses/javascript/lectures/11952024' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952024'
+            data-ss-event-type='link' data-ss-lecture-id='11952024'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952024' id='sidebar_link_11952024'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                this：DOM
+                
+                (2:52)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952025" data-lecture-url='/courses/javascript/lectures/11952025' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952025'
+            data-ss-event-type='link' data-ss-lecture-id='11952025'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952025' id='sidebar_link_11952025'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Quiz"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                this 課後練習
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952027" data-lecture-url='/courses/javascript/lectures/11952027' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952027'
+            data-ss-event-type='link' data-ss-lecture-id='11952027'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952027' id='sidebar_link_11952027'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                總結：函式的常見陷阱題
+                
+                (17:56)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952028" data-lecture-url='/courses/javascript/lectures/11952028' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952028'
+            data-ss-event-type='link' data-ss-lecture-id='11952028'
+            data-ss-position='5' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952028' id='sidebar_link_11952028'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Quiz"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                函式以及 This 的運作 - 課後練習
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        繼承與原型鍊
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="11952031" data-lecture-url='/courses/javascript/lectures/11952031' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952031'
+            data-ss-event-type='link' data-ss-lecture-id='11952031'
+            data-ss-position='6' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952031' id='sidebar_link_11952031'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                原型鍊的概念 - 為什麼有原型
+                
+                (3:58)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952032" data-lecture-url='/courses/javascript/lectures/11952032' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952032'
+            data-ss-event-type='link' data-ss-lecture-id='11952032'
+            data-ss-position='6' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952032' id='sidebar_link_11952032'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                原型在哪裡？
+                
+                (12:46)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952033" data-lecture-url='/courses/javascript/lectures/11952033' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952033'
+            data-ss-event-type='link' data-ss-lecture-id='11952033'
+            data-ss-position='6' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952033' id='sidebar_link_11952033'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                使用建構式自定義原型
+                
+                (9:09)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952035" data-lecture-url='/courses/javascript/lectures/11952035' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952035'
+            data-ss-event-type='link' data-ss-lecture-id='11952035'
+            data-ss-position='6' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952035' id='sidebar_link_11952035'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                原始型別的包裹物件與原型的關聯
+                
+                (6:25)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952036" data-lecture-url='/courses/javascript/lectures/11952036' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952036'
+            data-ss-event-type='link' data-ss-lecture-id='11952036'
+            data-ss-position='6' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952036' id='sidebar_link_11952036'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                使用 Object.create 建立多層繼承
+                
+                (12:24)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952038" data-lecture-url='/courses/javascript/lectures/11952038' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952038'
+            data-ss-event-type='link' data-ss-lecture-id='11952038'
+            data-ss-position='6' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952038' id='sidebar_link_11952038'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                原型鏈、建構函式整體結構概念
+                
+                (10:04)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952040" data-lecture-url='/courses/javascript/lectures/11952040' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952040'
+            data-ss-event-type='link' data-ss-lecture-id='11952040'
+            data-ss-position='6' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952040' id='sidebar_link_11952040'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                繼承與原型鍊 - 章節作業
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952041" data-lecture-url='/courses/javascript/lectures/11952041' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952041'
+            data-ss-event-type='link' data-ss-lecture-id='11952041'
+            data-ss-position='6' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952041' id='sidebar_link_11952041'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Quiz"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                繼承與原型鍊 - 課後練習
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        物件屬性延伸章節：屬性的特徵
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="11952043" data-lecture-url='/courses/javascript/lectures/11952043' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952043'
+            data-ss-event-type='link' data-ss-lecture-id='11952043'
+            data-ss-position='7' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952043' id='sidebar_link_11952043'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                屬性特徵是什麼？
+                
+                (10:48)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952045" data-lecture-url='/courses/javascript/lectures/11952045' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952045'
+            data-ss-event-type='link' data-ss-lecture-id='11952045'
+            data-ss-position='7' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952045' id='sidebar_link_11952045'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                物件屬性不可寫入？物件擴充的修改與調整
+                
+                (10:11)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952046" data-lecture-url='/courses/javascript/lectures/11952046' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952046'
+            data-ss-event-type='link' data-ss-lecture-id='11952046'
+            data-ss-position='7' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952046' id='sidebar_link_11952046'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                屬性列舉與原型的關係
+                
+                (7:58)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952048" data-lecture-url='/courses/javascript/lectures/11952048' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952048'
+            data-ss-event-type='link' data-ss-lecture-id='11952048'
+            data-ss-position='7' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952048' id='sidebar_link_11952048'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Getter 與 Setter，賦值運算不使用函式
+                
+                (9:54)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952050" data-lecture-url='/courses/javascript/lectures/11952050' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952050'
+            data-ss-event-type='link' data-ss-lecture-id='11952050'
+            data-ss-position='7' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952050' id='sidebar_link_11952050'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                屬性特徵與主流框架的關係
+                
+                (10:05)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952051" data-lecture-url='/courses/javascript/lectures/11952051' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952051'
+            data-ss-event-type='link' data-ss-lecture-id='11952051'
+            data-ss-position='7' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952051' id='sidebar_link_11952051'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Quiz"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                物件屬性延伸章節 - 課後練習
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        ES6 章節：Let 及 Const
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="11952053" data-lecture-url='/courses/javascript/lectures/11952053' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952053'
+            data-ss-event-type='link' data-ss-lecture-id='11952053'
+            data-ss-position='8' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952053' id='sidebar_link_11952053'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Let, Const 基本概念
+                
+                (8:14)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952055" data-lecture-url='/courses/javascript/lectures/11952055' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952055'
+            data-ss-event-type='link' data-ss-lecture-id='11952055'
+            data-ss-position='8' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952055' id='sidebar_link_11952055'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Let, Const 實戰運用技巧
+                
+                (5:37)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952057" data-lecture-url='/courses/javascript/lectures/11952057' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952057'
+            data-ss-event-type='link' data-ss-lecture-id='11952057'
+            data-ss-position='8' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952057' id='sidebar_link_11952057'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Let 有沒有 Hoisting？暫時性死區介紹
+                
+                (5:20)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952058" data-lecture-url='/courses/javascript/lectures/11952058' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952058'
+            data-ss-event-type='link' data-ss-lecture-id='11952058'
+            data-ss-position='8' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952058' id='sidebar_link_11952058'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                學好 ES6 - 使用 ESlint 工具輔助學習
+                
+                (2:51)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="11952059" data-lecture-url='/courses/javascript/lectures/11952059' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/11952059'
+            data-ss-event-type='link' data-ss-lecture-id='11952059'
+            data-ss-position='8' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/11952059' id='sidebar_link_11952059'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                ESLint 安裝說明及 Airbnb 文檔連結
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="12150280" data-lecture-url='/courses/javascript/lectures/12150280' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/12150280'
+            data-ss-event-type='link' data-ss-lecture-id='12150280'
+            data-ss-position='8' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/12150280' id='sidebar_link_12150280'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Quiz"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Let 及 Const - 課後練習
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        ES6 章節：箭頭函式
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="12364949" data-lecture-url='/courses/javascript/lectures/12364949' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/12364949'
+            data-ss-event-type='link' data-ss-lecture-id='12364949'
+            data-ss-position='9' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/12364949' id='sidebar_link_12364949'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                箭頭函式簡介
+                
+                (4:20)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="12364954" data-lecture-url='/courses/javascript/lectures/12364954' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/12364954'
+            data-ss-event-type='link' data-ss-lecture-id='12364954'
+            data-ss-position='9' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/12364954' id='sidebar_link_12364954'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                與傳統函式不同之處
+                
+                (8:06)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="12364959" data-lecture-url='/courses/javascript/lectures/12364959' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/12364959'
+            data-ss-event-type='link' data-ss-lecture-id='12364959'
+            data-ss-position='9' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/12364959' id='sidebar_link_12364959'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                常見問題
+                
+                (7:24)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="12364978" data-lecture-url='/courses/javascript/lectures/12364978' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/12364978'
+            data-ss-event-type='link' data-ss-lecture-id='12364978'
+            data-ss-position='9' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/12364978' id='sidebar_link_12364978'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                箭頭函式實戰用法
+                
+                (10:29)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="12365201" data-lecture-url='/courses/javascript/lectures/12365201' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/12365201'
+            data-ss-event-type='link' data-ss-lecture-id='12365201'
+            data-ss-position='9' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/12365201' id='sidebar_link_12365201'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                箭頭函式 - 章節作業
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        ES6 章節：Template Literial
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="13360871" data-lecture-url='/courses/javascript/lectures/13360871' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/13360871'
+            data-ss-event-type='link' data-ss-lecture-id='13360871'
+            data-ss-position='10' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/13360871' id='sidebar_link_13360871'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                樣板字面值（Template literals）基本介紹
+                
+                (8:22)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="13360877" data-lecture-url='/courses/javascript/lectures/13360877' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/13360877'
+            data-ss-event-type='link' data-ss-lecture-id='13360877'
+            data-ss-position='10' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/13360877' id='sidebar_link_13360877'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                樣板字面值技巧：VSCode 搭配 Emmet 撰寫 HTML 結構
+                
+                (2:40)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="13360929" data-lecture-url='/courses/javascript/lectures/13360929' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/13360929'
+            data-ss-event-type='link' data-ss-lecture-id='13360929'
+            data-ss-position='10' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/13360929' id='sidebar_link_13360929'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                補充資源： VSCode 設定
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="13360884" data-lecture-url='/courses/javascript/lectures/13360884' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/13360884'
+            data-ss-event-type='link' data-ss-lecture-id='13360884'
+            data-ss-position='10' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/13360884' id='sidebar_link_13360884'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                巢狀結構
+                
+                (10:11)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="13360895" data-lecture-url='/courses/javascript/lectures/13360895' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/13360895'
+            data-ss-event-type='link' data-ss-lecture-id='13360895'
+            data-ss-position='10' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/13360895' id='sidebar_link_13360895'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                標籤樣板字面值
+                
+                (12:54)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="13470023" data-lecture-url='/courses/javascript/lectures/13470023' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/13470023'
+            data-ss-event-type='link' data-ss-lecture-id='13470023'
+            data-ss-position='10' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/13470023' id='sidebar_link_13470023'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                標籤樣板字面值作業說明
+                
+                (2:38)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="13470037" data-lecture-url='/courses/javascript/lectures/13470037' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/13470037'
+            data-ss-event-type='link' data-ss-lecture-id='13470037'
+            data-ss-position='10' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/13470037' id='sidebar_link_13470037'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Subject"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                標籤樣板字面值作業
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class='col-sm-12 course-section'>
+      <div role="heading" aria-level="3" class='section-title' data-release-date="" data-days-until-dripped="" data-is-dripped-by-date="" data-course-id="670037">
+        <span class="section-lock v-middle">
+          <svg width="24" height="24">
+            <use xlink:href="#icon__LockClock"></use>
+          </svg>&nbsp;
+        </span>
+        Promise
+      </div>
+      <ul class='section-list'>
+        
+        <li data-lecture-id="14480658" data-lecture-url='/courses/javascript/lectures/14480658' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/14480658'
+            data-ss-event-type='link' data-ss-lecture-id='14480658'
+            data-ss-position='11' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/14480658' id='sidebar_link_14480658'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                為什麼需要 Promise
+                
+                (14:41)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="14480661" data-lecture-url='/courses/javascript/lectures/14480661' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/14480661'
+            data-ss-event-type='link' data-ss-lecture-id='14480661'
+            data-ss-position='11' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/14480661' id='sidebar_link_14480661'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Promise 基礎概念
+                
+                (3:28)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="14480663" data-lecture-url='/courses/javascript/lectures/14480663' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/14480663'
+            data-ss-event-type='link' data-ss-lecture-id='14480663'
+            data-ss-position='11' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/14480663' id='sidebar_link_14480663'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                創立自己的 Promise
+                
+                (11:59)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="14480665" data-lecture-url='/courses/javascript/lectures/14480665' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/14480665'
+            data-ss-event-type='link' data-ss-lecture-id='14480665'
+            data-ss-position='11' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/14480665' id='sidebar_link_14480665'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                鏈接技巧
+                
+                (7:29)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="14480667" data-lecture-url='/courses/javascript/lectures/14480667' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/14480667'
+            data-ss-event-type='link' data-ss-lecture-id='14480667'
+            data-ss-position='11' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/14480667' id='sidebar_link_14480667'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Promise 常用方法
+                
+                (5:56)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+        <li data-lecture-id="14480669" data-lecture-url='/courses/javascript/lectures/14480669' class='section-item incomplete'>
+          <a class='item' data-no-turbolink='true' data-ss-course-id='670037'
+            data-ss-event-name='Lecture: Navigation Sidebar' data-ss-event-href='/courses/javascript/lectures/14480669'
+            data-ss-event-type='link' data-ss-lecture-id='14480669'
+            data-ss-position='11' data-ss-school-id='424940'
+            data-ss-user-id='' href='/courses/javascript/lectures/14480669' id='sidebar_link_14480669'>
+            <span class='status-container'>
+              <span class='status-icon'>
+                &nbsp;
+              </span>
+            </span>
+            <div class='title-container'>
+              <span class='lecture-icon v-middle'>
+                  <svg width="24" height="24">
+                    <use xlink:href="#icon__Video"></use>
+                  </svg>
+              </span>
+              <span class='lecture-name'>
+                Promise 與 Ajax
+                
+                (5:21)
+                
+              </span>
+            </div>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+
+      <!-- Lecture Content -->
+<div class="course-mainbar lecture-content">
+  <h2 id="lecture_heading" class="section-title" data-lecture-id="11951990" data-next-lecture-id="11951991" data-lecture-url="/courses/670037/lectures/11951990" data-next-lecture-url="/courses/670037/lectures/11951991", data-previous-lecture-url="/courses/670037/lectures/11951981" data-previous-lecture-id="11951981" >
+    <i class="fa fa-youtube-play"></i>
+    &nbsp;
+    物件取值、新增、刪除
+</h2>
+  <div class='well locked'>
+  <center>
+      <div class='lecture-contents-locked'>
+        <div class='locked-icon'>
+          <div class='lecture-lock-seal'>
+  <div class='lecture-lock-seal-lock-icon'>
+  </div>
+</div>
+        </div>
+        課程內容未解鎖
+        <div class='already-enrolled'>如果您已經購買此課程， <a href='/sign_in?origin_path=/courses/670037/lectures/11951990'>請您重新登入後再查看</a>.</div>
+        <a class='btn btn-md btn-primary btn-md' href='https://courses.hexschool.com/courses/670037' id='lecture-locked' title='JavaScript 核心篇'>購買本課程</a>
+      </div>
+  </center>
+</div>
+
+  
+    </section>
+    <!-- No lecture footer in the new redesign -->
+
+    
+  <script type="text/javascript">(function(){window['__CF$cv$params']={r:'68501a94ad09f091',m:'65bbdddb93e8fa782b9ebc2238cf8fa25e402791-1630012824-1800-AehZMJ5sYVI8ovQOMF2pYpvK9D5BOXOAsW4aNjThrJMVJKPkWuoI0AjC6XxteD9Wyq7REDqmHfkb1pFnRa1zN8tohu5LYIO4IHDNOezQjgKsa/EZC6oZ2vK5/28y2pouIJVMrOlqjDFBhdYnoewZhb52ExxUpsINFT8v1kNPb1vC',s:[0xc474084fd2,0x1f969678a0],}})();</script></body>
+</html>

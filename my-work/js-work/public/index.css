@@ -1,0 +1,18 @@
+.m {
+    margin-top: 100px;
+    margin-bottom: 2000px;
+  }
+  
+  .box {
+    background-color: green;
+  }
+  
+  .bg {
+    background: url(../img/41658369964_d9e3267a49_k.jpg);
+  }
+  
+  .bg-c {
+    background-size: cover;
+    background-position: center center;
+  }
+  
