@@ -1,30 +1,28 @@
-const humber=document.getElementById('humber')
-const cocoa=document.getElementById('cocoa')
-const all=document.getElementById('all')
-const btn=document.getElementById('btn')
-const text=document.getElementById('text')
+const slider = document.querySelector('.gallery');
+let isDown = false;
+let startX;
+let scrollLeft;
 
-function ttt(humberprice,cocoaprice){
-    console.log(humber.value)
-    console.log(cocoa.value)
-    let humbercount=humber.value
-    let cocoacount=cocoa.value
-    let allcount=((+humbercount)*humberprice)+((+cocoacount)*cocoaprice)
-    console.log(allcount)
-    let allagain=allcount
-    all.innerText=allagain
-   
+slider.addEventListener('mousedown', e => {
+  isDown = true;
+  slider.classList.add('active');
+  startX = e.pageX - slider.offsetLeft;
+  scrollLeft = slider.scrollLeft;
+});
+slider.addEventListener('mouseleave', _ => {
+  isDown = false;
+  slider.classList.remove('active');
+});
+slider.addEventListener('mouseup', _ => {
+  isDown = false;
+  slider.classList.remove('active');
+});
+slider.addEventListener('mousemove', e => {
+  if (!isDown) return;
+  e.preventDefault();
+  const x = e.pageX - slider.offsetLeft;
+  const SCROLL_SPEED = 3;
+  const walk = (x - startX) * SCROLL_SPEED;
+  slider.scrollLeft = scrollLeft - walk;
+});
 
-}
-function aaa(){
-    let d='你好你想來說迷'
-    text.textContent=d
-    
-}
-btn.addEventListener('click',function(){
-   ttt(50,10)
-   //漢堡50 可樂10
-})
-
-
-aaa()
